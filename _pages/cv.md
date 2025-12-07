@@ -8,7 +8,7 @@ permalink: /cv/
 [Download my CV]({{ "/assets/Allison K. Newman Resume.pdf" | relative_url }}) in PDF format.
 
 
-**Email:** [akn47@cornell.edu](mailto:netID@cornell.edu) | | | **Phone:** (323)807-3076
+**Email:** [akn47@cornell.edu](mailto:akn47@cornell.edu) | | | **Phone:** (323)807-3076
 
 ---
 
