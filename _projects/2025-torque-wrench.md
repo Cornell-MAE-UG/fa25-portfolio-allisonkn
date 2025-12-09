@@ -10,10 +10,8 @@ In my Mechancis of Materials Class, I was asked to analyze a baseline torque wre
 In my modified design, I changed the material to be a steel-chromium alloy, AISI H19, to meet the factor of safety. I also narrowed a region near the drive to increase strain gauge sensitivity for my selection: 1-DY11-6/350 from HBK. 
 
 **1. CAD Model**
-<p align="center">
-  <img src="assets/images/Torque-Wrench-Ansys.png" width="300">
-  <img src="assets/images/Torque-Wrench-CAD1.png" width="300">
-</p>
+![ANSYS result](assets/images/Torque-Wrench-Ansys.png)
+![CAD model](assets/images/Torque-Wrench-CAD1.png)
 Relevant dimensions:
 Drive
 - Total height = 0.50 in.
