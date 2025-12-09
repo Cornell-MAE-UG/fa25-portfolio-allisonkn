@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Ansys Analysis and Improvement of a Torque Wrench
+title: Torque Wrench Ansys
 description: Mechanics of Materials Project
 technologies: [SolidWorks, Ansys, MATLAB]
 image: /assets/images/Torque Wrench Ansys.png
@@ -9,6 +9,8 @@ In my Mechancis of Materials Class, I was asked to analyze a baseline torque wre
 
 In my modified design, I changed the material to be a steel-chromium alloy, AISI H19, to meet the factor of safety. I also narrowed a region near the drive to increase strain gauge sensitivity for my selection: 1-DY11-6/350 from HBK. 
 
+**1. CAD Model**
+![CAD Model]({{ "assets/images/Torque Wrench CAD1.PNG" | relative_url }})
 For more information, see the following document which includes FEA results.
 
 [Download my Report]({{ "/assets/MAE 3270 Final Project.pdf" | relative_url }}) in PDF format.
