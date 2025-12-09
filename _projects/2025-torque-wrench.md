@@ -3,7 +3,7 @@ layout: project
 title: Torque Wrench Ansys
 description: Mechanics of Materials Project
 technologies: [SolidWorks, Ansys, MATLAB]
-image: /assets/images/Torque Wrench Ansys.png
+image: /assets/images/Torque-Wrench-Ansys.png
 ---
 In my Mechancis of Materials Class, I was asked to analyze a baseline torque wrench design, modeled as a cantilever beam, in Ansys. I utilized MATLAB to perform some hand calculations to verify that the torque wrench maintained a safety factor of 4 against yield, 2 against crack growth, and 1.5 against fatigue when subjected to a 600 lbf torque. 
 
@@ -11,8 +11,8 @@ In my modified design, I changed the material to be a steel-chromium alloy, AISI
 
 **1. CAD Model**
 <p align="center">
-  <img src="/assets/images/Torque-Wrench-Ansys.png" width="300">
-  <img src="/assets/images/Torque-Wrench-CAD1.png" width="300">
+  <img src="assets/images/Torque-Wrench-Ansys.png" width="300">
+  <img src="assets/images/Torque-Wrench-CAD1.png" width="300">
 </p>
 Relevant dimensions:
 Drive
