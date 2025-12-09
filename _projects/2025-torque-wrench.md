@@ -11,7 +11,7 @@ In my modified design, I changed the material to be a steel-chromium alloy, AISI
 
 **1. CAD Model**
 
-![Torque Wrench]({{ "assets/images/Torque-Wrench-CAD1.png" | relative_url }}){: class="profile-image"}
+![Torque Wrench]({{ "assets/images/Torque-Wrench-CAD1.png" | relative_url }}){: class=".wrench-image"}
 
 Relevant dimensions:
 Drive
