@@ -11,9 +11,10 @@ In my modified design, I changed the material to be a steel-chromium alloy, AISI
 
 **1. CAD Model**
 <p align="center">
-  <img src="/assets/css/images/Torque-Wrench-Ansys.png" width="300" />
-  <img src="/assets/css/images/Torque-Wrench-CAD1.png" width="300" />
+  <img src="/assets/images/Torque-Wrench-Ansys.png" width="300">
+  <img src="/assets/images/Torque-Wrench-CAD1.png" width="300">
 </p>
+
 
 For more information, see the following document which includes FEA results.
 
