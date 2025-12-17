@@ -3,7 +3,7 @@ layout: project
 title: Vacuum Cleaner Dissection
 description: Fluid Mechanics Final Project
 technologies: [Centrifugal Pump, Universal Motor]
-image: /assets/images/function-graph.png
+image: /assets/images/FluidsDissection.png
 ---
 
 
