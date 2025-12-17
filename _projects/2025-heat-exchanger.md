@@ -11,6 +11,7 @@ A heat exchanger is a ubiquitous device used in many applications: pharmaceutica
 I decided to analyze a heat exchanger to determine the total area of the heat exchanger interior plates may be based on the inlet and outlet temperatures of the hot and cold fluids.
 
 **The Setup**
+
 Counterflow
 
 ![Heat Exchanger]({{ "/assets/images/Heat Exchanger Counterflow Setup.png" | relative_url }}){: class=".wrench-image"}
