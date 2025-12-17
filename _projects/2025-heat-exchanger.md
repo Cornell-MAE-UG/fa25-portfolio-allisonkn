@@ -8,13 +8,15 @@ image: /assets/images/Heat Exchanger Parallel Flow Setup.png
 
 A heat exchanger is a ubiquitous device used in many applications: pharmaceuticals, pasteurization, regeneration, automobiles, power plants, etc. It takes a hot fluid and a cold fluid and runs them in parallel or counterflow to raise the temperature of the cold fluid and lower the temperature of the hot fluid all without the fluids mixing. 
 
-I decided to analyze a heat exchanger to determine how long the interior tubing may be based on the inlet and outlet temperatures of the hot and cold fluids.
+I decided to analyze a heat exchanger to determine the total area of the heat exchanger interior plates may be based on the inlet and outlet temperatures of the hot and cold fluids.
 
 **The Setup**
 Counterflow
+
 ![Heat Exchanger]({{ "/assets/images/Heat Exchanger Counterflow Setup.png" | relative_url }}){: class=".wrench-image"}
 
 Parallel
+
 ![Heat Exchanger]({{ "/assets/images/Heat Exchanger Parallel Flow Setup.png" | relative_url }}){: class=".wrench-image"}
 
 
@@ -47,7 +49,7 @@ With these values and a few properties of the fluid, I was able to figure out ho
 
 **Heat Transfer Calculations**
 
-For Counterflow:
+*For Counterflow:*
 
 Heat transfer from hot fluid = 0.14 * 4184 * (23.7 - 42.5) = -11012 J
 
@@ -57,7 +59,7 @@ Average absolute heat transfer = 10602 J
 
 These values are relatively close to each other, with the difference only about 7.7% off from the average value.
 
-For Parallel Flow:
+*For Parallel Flow:*
 
 Heat transfer from hot fluid = 0.14 * 4184 * (19.8 - 35.4) = -9138 J
 
@@ -69,7 +71,7 @@ These values are not as close to each other, with a precent difference of about 
 
 **Area Calculations**
 
-*For simplicity, this calculation will only use values obtained from counterflow as I determined the heat transfer through that method saw the most insulation*
+*For simplicity, this calculation will only use values obtained from counterflow as I determined the heat transfer through that method saw the most similarity between hot and cold values.*
 
 - Log mean temperature difference = 28.4 K
 - Overall thermal resistance, Rtot = Tlm / Qdot = 0.003 K/W
@@ -84,7 +86,7 @@ We can also calculate Rtot another way using the convective properties of the he
 
 So now we can finally calculate the area:
 
-A = 0.87 m^2
+**A = 0.87 m^2**
 
 Thus, the total interior area of the heat exchanger plates is approximately 0.87 square meters.
 
