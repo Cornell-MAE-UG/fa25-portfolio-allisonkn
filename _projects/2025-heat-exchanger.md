@@ -8,7 +8,7 @@ image: /assets/images/Heat Exchanger Parallel Flow Setup.png
 
 A heat exchanger is a ubiquitous device used in many applications: pharmaceuticals, pasteurization, regeneration, automobiles, power plants, etc. It takes a hot fluid and a cold fluid and runs them in parallel or counterflow to raise the temperature of the cold fluid and lower the temperature of the hot fluid all without the fluids mixing. 
 
-I decided to analyze a heat exchanger to determine the total area of the heat exchanger interior plates may be based on the inlet and outlet temperatures of the hot and cold fluids.
+I decided to analyze a heat exchanger to determine how the total area of this specific heat exchanger's interior plates may be based on the inlet and outlet temperatures of the hot and cold fluids.
 
 **The Setup**
 
