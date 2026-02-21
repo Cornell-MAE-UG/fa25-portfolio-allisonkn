@@ -3,13 +3,15 @@ layout: project
 title: Spotted Lantern Fly Extermination
 description: Open Design Project - Spotted Lantern Fly Solution
 technologies: [SolidWorks]
-image: /assets/images/Torque-Wrench-Ansys.png
+image: /assets/images/spottedlanternfly.jpg
 ---
 
-# Your Project Title
+## Spotted Lantern Fly Extermination Decoy-Tree
 
 **Team:** Team Lighthouse
-**Client(s):** Cornell CALS Extension / E\&J Gallo Winery / National Grape  
+**Client(s):** Cornell CALS Extension / E&J Gallo Winery / National Grape  
+
+
 
 ## Problem statement (most important)
 
@@ -22,16 +24,15 @@ Spotted lantern flies have been an invasive species and have destroyed hundreds 
 
 ### Concept A (primary): Decoy Tree-Like Structure
 
-**What it is:** A tall structure made to attract SLF due to its size and stature. Includes a fumigator that sends out poisonous, yet attractive, scents and chemicals.  
+**What it is:** A tall structure made to attract SLF due to its size and stature. Includes a fumigator that sends out poisonous, yet attractive, scents and chemicals. 
+
 **How it would be used:** The SLFs would be attracted to this decoy tree like it is to the Tree of Heaven. It would ingest its poisonous chemicals and either die immediately or bring back this harmful substance to the remainder of its population.  
+
 **Why it’s better than the status quo:** This decoy tree can target specific areas near grape harvests and pull SLFs away from the vines and towards a centralized location where they can easily be killed all at once. 
+
 **End-of-semester proof-of-concept:** We can build the fumigator attachment that will be added to tall poles, and we can design a linkage that can attach to a standard pole or tree.
 
-### Concepts B, C, etc.
-
-<Only include if you want the client to compare two directions. Keep short.>
-
-## Key risks / unknowns
+**Key risks / unknowns**
 
 - SLFs might invade the lured regions and become a problem in a different industry/environment
 - Requires more manpower to kill when they’re trapped and need to be extracted
@@ -46,3 +47,5 @@ Spotted lantern flies have been an invasive species and have destroyed hundreds 
 Focus on questions they can answer from lived experience.
 1. How would you rank the effectiveness of each luring factor we have in our idea (electric frequency, scent of organic compounds, honeydew, scent)?
 2. What are different bugs that may be affected by catching spotted lanternflies and what are things we can do to prevent this?
+
+[Download my proposal]({{ "/assets/Client Outline & Pitch - Google Docs.pdf" | relative_url }}) in PDF format.
