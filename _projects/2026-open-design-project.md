@@ -1,15 +1,9 @@
-<!--
-Compile to PDF (example):
-  pandoc O3_ClientOutline_example_submission.md -o O3_ClientOutline.pdf
--->
-
 ---
-fontsize: 11pt
-geometry: margin=1in
-papersize: letter
-pagestyle: empty
-header-includes:
-  - \pagenumbering{gobble}
+layout: project
+title: Spotted Lantern Fly Extermination
+description: Open Design Project - Spotted Lantern Fly Solution
+technologies: [SolidWorks]
+image: /assets/images/Torque-Wrench-Ansys.png
 ---
 
 # Your Project Title
