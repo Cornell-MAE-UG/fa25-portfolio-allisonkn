@@ -1,108 +1,54 @@
+<!--
+Compile to PDF (example):
+  pandoc O3_ClientOutline_example_submission.md -o O3_ClientOutline.pdf
+-->
+
 ---
-layout: project
-title: Heat Exchanger Lab
-description: Thermodynamics Analysis
-technologies: [Pumps, Heat Exchanger]
-image: /assets/images/Heat Exchanger Parallel Flow Setup.png
+fontsize: 11pt
+geometry: margin=1in
+papersize: letter
+pagestyle: empty
+header-includes:
+  - \pagenumbering{gobble}
 ---
 
-A heat exchanger is a ubiquitous device used in many applications: pharmaceuticals, pasteurization, regeneration, automobiles, power plants, etc. It takes a hot fluid and a cold fluid and runs them in parallel or counterflow to raise the temperature of the cold fluid and lower the temperature of the hot fluid all without the fluids mixing. 
+# Your Project Title
 
-I decided to analyze a heat exchanger to determine how the total area of this specific heat exchanger's interior plates may be based on the inlet and outlet temperatures of the hot and cold fluids.
+**Team:** Team Lighthouse
+**Client(s):** Cornell CALS Extension / E\&J Gallo Winery / National Grape  
 
-**The Setup**
+## Problem statement (most important)
 
-Counterflow
+Spotted lantern flies gather on grape vines, but they also gather on other plants that we don’t harvest, like the Tree of Heaven. How can we leverage this unique quality and lure spotted lantern flies to specific locations away from the vineyards to be exterminated?  
 
-![Heat Exchanger]({{ "/assets/images/Heat Exchanger Counterflow Setup.png" | relative_url }}){: class=".wrench-image"}
+## Impact
+Spotted lantern flies have been an invasive species and have destroyed hundreds of grape harvests. If we can limit their destruction, we can save farmers thousands of dollars and reduce food waste. 
 
-Parallel
+## Proposed direction(s)
 
-![Heat Exchanger]({{ "/assets/images/Heat Exchanger Parallel Flow Setup.png" | relative_url }}){: class=".wrench-image"}
+### Concept A (primary): Decoy Tree-Like Structure
+
+**What it is:** A tall structure made to attract SLF due to its size and stature. Includes a fumigator that sends out poisonous, yet attractive, scents and chemicals.  
+**How it would be used:** The SLFs would be attracted to this decoy tree like it is to the Tree of Heaven. It would ingest its poisonous chemicals and either die immediately or bring back this harmful substance to the remainder of its population.  
+**Why it’s better than the status quo:** This decoy tree can target specific areas near grape harvests and pull SLFs away from the vines and towards a centralized location where they can easily be killed all at once. 
+**End-of-semester proof-of-concept:** We can build the fumigator attachment that will be added to tall poles, and we can design a linkage that can attach to a standard pole or tree.
+
+### Concepts B, C, etc.
+
+<Only include if you want the client to compare two directions. Keep short.>
+
+## Key risks / unknowns
+
+- SLFs might invade the lured regions and become a problem in a different industry/environment
+- Requires more manpower to kill when they’re trapped and need to be extracted
+- Each lure/trap will need to be maintained since they can’t hold infinite amounts of SLFs.
+- Don’t know how attracted they will be to grapes vs. chemicals/ decoy
+- It will take research to see if and how effective a lure actually is since we don’t know how strongly they would value the lures over grapes.
+- Catching other bugs/animals
+- The pheromones and chemicals might attract different insects/animals and so if we implement an insecticide to kill the SLFs, then we might hurt other species unnecessarily.
 
 
-The basic values: 
-
-**Given**
-
-- mass flow rate (mdot) = 0.14 kg/s (from Vivosun Aquapump Specs.)
-- specific heat of water = 4184 J/kgK
-
-**Counterflow**
-
-- Hot Water In: 42.5 degrees C
-- Cold Water In: 7.0 degrees C
-- Hot Water Out: 23.7 degrees C
-- Cold Water Out: 24.4 degrees C
-
-**Parallel Flow**
-
-- Hot Water In: 35.4 degrees C
-- Cold Water In: 5.2 degrees C
-- Hot Water Out: 19.8 degrees C
-- Cold Water Out: 16.4 degrees C
-
-The governing equations:
-
-![Heat Exchanger]({{ "assets/images/GoverningEquations.png" | relative_url }}){: class=".wrench-image"}
-
-With these values and a few properties of the fluid, I was able to figure out how much heat transfer occurred and also the total surface area of the panels inside of the heat exchanger. 
-
-**Heat Transfer Calculations**
-
-*For Counterflow:*
-
-Heat transfer from hot fluid = 0.14 * 4184 * (23.7 - 42.5) = -11012 J
-
-Heat transfer from cold fluid = 0.14 * 4184 * (24.4 - 7.0) = 10192 J 
-
-Average absolute heat transfer = 10602 J
-
-These values are relatively close to each other, with the difference only about 7.7% off from the average value.
-
-*For Parallel Flow:*
-
-Heat transfer from hot fluid = 0.14 * 4184 * (19.8 - 35.4) = -9138 J
-
-Heat transfer from cold fluid = 0.14 * 4184 * (16.4 - 5.2) = 6560 J 
-
-Average absolute heat transfer = 7849 J
-
-These values are not as close to each other, with a precent difference of about 32.8%. The heat transfer in counterflow, according to these calculations, is thus more effective.
-
-**Area Calculations**
-
-*For simplicity, this calculation will only use values obtained from counterflow as I determined the heat transfer through that method saw the most similarity between hot and cold values.*
-
-- Log mean temperature difference = 28.4 K
-- Overall thermal resistance, Rtot = Tlm / Qdot = 0.003 K/W
-
-We can also calculate Rtot another way using the convective properties of the heat exchanger:
-
-- Convective heat transfer coefficient (hot) hi~ 700 W/m^2K
-- Convective heat transfer coefficient (cold) ho~ 1300 W/m^2K
-- Interior and exterior fouling factors Rf~ 0.0002 m^2K/W
-
-- Rtot = 1/Area * (2 * Rf + 1/hi + 1/ho ) = 1/A * 0.00260 Km^2/W
-
-So now we can finally calculate the area:
-
-**A = 0.87 m^2**
-
-Thus, the total interior area of the heat exchanger plates is approximately 0.87 square meters.
-
-**Important Assumptions**
-
-- No heat transfer to exterior
-- KE and PE changes are negligible
-- Convective heat transfer coefficients were for pure water, with the hot and cold values estimated 
-- Fouling factor estimated equal for interior and exterior
-- Heat transfer rate averaged between hot and cold values
-
-**Conclusion**
-
-- This experiment helped us model an ideal scenario of heat transfer between hot and cold fluids, both in parallel and counterflow
-- In real life, heat is transferred to the surroundings, but we chose to ignore this and so our area estimate may be somewhat off
-- We are pretty much operating at steady state since the pumps are running at constant power and the inlet and outlet have equal areas
-- In real life, kinetic energy changes because of viscosity, so the area estimate is also off due to this assumption
-
+## Questions for the client
+Focus on questions they can answer from lived experience.
+1. How would you rank the effectiveness of each luring factor we have in our idea (electric frequency, scent of organic compounds, honeydew, scent)?
+2. What are different bugs that may be affected by catching spotted lanternflies and what are things we can do to prevent this?
