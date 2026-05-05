@@ -20,7 +20,7 @@ This project was developed through multiple milestones, progressing from an init
 
 ---
 
-## 🎯 Client Pitch
+## Client Pitch
 
 ### Problem Statement
 Spotted lantern flies are currently impacting grape harvests massively, almost 300 million dollars lost annually on the grape and wine industry in New York State alone. On top of affecting yield, they also impact quality of the harvests, over 10% quality reduction in just 4 years. 
@@ -43,7 +43,7 @@ End-of-semester proof-of-concept: A humidifier with an adapter that can be attac
 
 ---
 
-## ⚙️ Functional Prototype
+## Functional Prototype
 
 ### Prototype Description
 We built a 4"x4" box with fans mounted to the lid, connected to a shaft with a cup anemometer on the top. The cup anemometer uses wind to drive the rotation of the fans to increase ventilation of a SLF lure through the box.
@@ -54,14 +54,14 @@ We built a 4"x4" box with fans mounted to the lid, connected to a shaft with a c
 - Hinges
 - Bespoke connector pieces  
 
-### Media (Optional)
+### Media 
 ![Table of Parts]({{ "assets/images/Parts Table.png" | relative_url }}){: class=".wrench-image"}
 
 ![Prototype Image]({{ "assets/images/Prototype image.png" | relative_url }}){: class=".wrench-image"}
 
 ![Prototype sketch]({{ "assets/images/Prototype sketch.png" | relative_url }}){: class=".wrench-image"}
 
-## 📊 Client Report
+## Client Report
 
 From our efforts to solve this issue, we determined that the optimal next steps should be to get in contact with growers and test our solution where it is needed. In this way, we could obtain more detailed data on the application sites for our product and the conditions under which it must operate. Some considerations that we have in preparation for testing are determining how we can make the system function at lower wind speeds (such as by modifying in favor of lighter components or using smoother edged parts to reduce friction) and how we can deal with the SLFs after luring them. Based on our test results, our main issue is the high wind speed that must be reached before the system starts given that the system moved minimally during testing. Thus, going into the field will be tremendously helpful for informing our future redesigns.
 
