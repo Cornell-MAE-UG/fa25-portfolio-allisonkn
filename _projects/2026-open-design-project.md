@@ -6,46 +6,63 @@ technologies: [SolidWorks]
 image: /assets/images/spottedlanternfly.jpg
 ---
 
-## Spotted Lantern Fly Extermination Decoy-Tree
+## 📌 Project Overview
 
-**Team:** Team Lighthouse
-**Client(s):** Cornell CALS Extension / E&J Gallo Winery / National Grape  
+This project was developed through multiple milestones, progressing from an initial client-focused concept to a functional prototype and final report. Below is a structured overview of each stage.
 
+---
 
+## 📚 Table of Contents
 
-## Problem statement (most important)
+- [Client Pitch](#client-pitch)
+- [Functional Prototype](#functional-prototype)
+- [Client Report](#client-report)
 
-Spotted lantern flies gather on grape vines, but they also gather on other plants that we don’t harvest, like the Tree of Heaven. How can we leverage this unique quality and lure spotted lantern flies to specific locations away from the vineyards to be exterminated?  
+---
 
-## Impact
-Spotted lantern flies have been an invasive species and have destroyed hundreds of grape harvests. If we can limit their destruction, we can save farmers thousands of dollars and reduce food waste. 
+## 🎯 Client Pitch
 
-## Proposed direction(s)
+### Problem Statement
+Spotted lantern flies are currently impacting grape harvests massively, almost 300 million dollars lost annually on the grape and wine industry in New York State alone. On top of affecting yield, they also impact quality of the harvests, over 10% quality reduction in just 4 years. 
 
-### Concept A (primary): Decoy Tree-Like Structure
+### Impact
+If we can limit their destruction, we can save farmers thousands of dollars and reduce food waste. 
 
-**What it is:** A tall structure made to attract SLF due to its size and stature. Includes a fumigator that sends out poisonous, yet attractive, scents and chemicals. 
+### Proposed Solution
+Proposed direction: Decoy Lure 
+A humidifier that will release attractive fumes and poisonous fumes/insecticides at a to be determined rate. There will be a form of sticky tearable tape nearby to trap the SLF upon landing.
+- Humidifier hung around tree(Tree of heaven) or telephone. 
+- Layer of sticky tearable tape wrapped around tree or telephone pole within the region of the humidifier. 
+- A person tears off one layer after a set period of time. 
+Why it’s better? 
+- Will not affect the harvests, and pulls SLF away from grape vines.
+- Reduces population of SLF. 
+- Easily scalable.
+- Doesn't require power. 
+End-of-semester proof-of-concept: A humidifier with an adapter that can be attached to a tree or pole. 
 
-**How it would be used:** The SLFs would be attracted to this decoy tree like it is to the Tree of Heaven. It would ingest its poisonous chemicals and either die immediately or bring back this harmful substance to the remainder of its population.  
+---
 
-**Why it’s better than the status quo:** This decoy tree can target specific areas near grape harvests and pull SLFs away from the vines and towards a centralized location where they can easily be killed all at once. 
+## ⚙️ Functional Prototype
 
-**End-of-semester proof-of-concept:** We can build the fumigator attachment that will be added to tall poles, and we can design a linkage that can attach to a standard pole or tree.
+### Prototype Description
+We built a 4"x4" box with fans mounted to the lid, connected to a shaft with a cup anemometer on the top. The cup anemometer uses wind to drive the rotation of the fans to increase ventilation of a SLF lure through the box.
 
-**Key risks / unknowns**
+### Key Features
+- Cup Anemometer
+- Adapted DC Cooling Fan 
+- Hinges
+- Bespoke connector pieces  
 
-- SLFs might invade the lured regions and become a problem in a different industry/environment
-- Requires more manpower to kill when they’re trapped and need to be extracted
-- Each lure/trap will need to be maintained since they can’t hold infinite amounts of SLFs.
-- Don’t know how attracted they will be to grapes vs. chemicals/ decoy
-- It will take research to see if and how effective a lure actually is since we don’t know how strongly they would value the lures over grapes.
-- Catching other bugs/animals
-- The pheromones and chemicals might attract different insects/animals and so if we implement an insecticide to kill the SLFs, then we might hurt other species unnecessarily.
+### Media (Optional)
+![Table of Parts]({{ "assets/images/Parts Table.png" | relative_url }}){: class=".wrench-image"}
 
+![Prototype Image]({{ "assets/images/Prototype image.png" | relative_url }}){: class=".wrench-image"}
 
-## Questions for the client
-Focus on questions they can answer from lived experience.
-1. How would you rank the effectiveness of each luring factor we have in our idea (electric frequency, scent of organic compounds, honeydew, scent)?
-2. What are different bugs that may be affected by catching spotted lanternflies and what are things we can do to prevent this?
+![Prototype sketch]({{ "assets/images/Prototype sketch.png" | relative_url }}){: class=".wrench-image"}
+
+## 📊 Client Report
+
+From our efforts to solve this issue, we determined that the optimal next steps should be to get in contact with growers and test our solution where it is needed. In this way, we could obtain more detailed data on the application sites for our product and the conditions under which it must operate. Some considerations that we have in preparation for testing are determining how we can make the system function at lower wind speeds (such as by modifying in favor of lighter components or using smoother edged parts to reduce friction) and how we can deal with the SLFs after luring them. Based on our test results, our main issue is the high wind speed that must be reached before the system starts given that the system moved minimally during testing. Thus, going into the field will be tremendously helpful for informing our future redesigns.
 
 [Download my proposal]({{ "/assets/Client Outline & Pitch - Google Docs.pdf" | relative_url }}) in PDF format.
