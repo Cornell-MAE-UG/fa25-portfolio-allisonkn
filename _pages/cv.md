@@ -5,7 +5,7 @@ permalink: /cv/
 ---
 ## Curriculum Vitae
 
-[Download my CV]({{ "/assets/Allison K. Newman Resume 2027.pdf" | relative_url }}) in PDF format.
+[Download my CV]({{ "/assets/Allison K. Newman Resume Aug. 2026.pdf" | relative_url }}) in PDF format.
 
 
 **Email:** [akn47@cornell.edu](mailto:akn47@cornell.edu) | | | **Phone:** (323)807-3076
