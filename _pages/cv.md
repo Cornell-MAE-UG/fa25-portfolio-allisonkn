@@ -57,8 +57,8 @@ Modeled in SolidWorks linkage vs. gear design to determine optimal rotation mech
 ---
 
 #### Work Experience
+
 - **Lockheed Martin RMS–Sikorsky, Assembly & Flight Operations - Manufacturing Engineering Intern**
-  
   May 2026 - August 2026
   - Simulated and modeled gas-purging process using inert gas for AFSD with STAR-CCM+ and Ansys to demonstrate inefficiencies in current setup and suggest improvements for future systems. Familiarized myself with steady, transient and turbulent models; implemented passive scalar models.
   - Sliced, printed, and packaged 26 to-scale parts of the modernized Black Hawk nose for a trade-show in under 2 weeks utilizing 3 F900 printers.
@@ -69,8 +69,8 @@ Modeled in SolidWorks linkage vs. gear design to determine optimal rotation mech
   August 2025 - May 2026  
   - Curating 2-hour weekly workshops with co-facilitator to reinforce key Linear Algebra principles for undergraduate students; drafting, proofreading, and testing worksheets and games to engage students while highlighting key concepts, totaling 6+ hours of prep weekly. 
   - Working closely with Linear Algebra TAs and Office of Inclusive Excellence to establish a challenging and reflective workshop to improve students’ understanding of difficult concepts by attending biweekly training to reinforce active learning principles built off of group collaboration.
+
 - **Dewey Smart - College Counselor and Test Prep/ Academic Tutor**
-  
   May 2025 - June 2026
   - Contributing 6+ hours weekly to instructing and preparing students for College Applications, in addition to academic tutoring in Calculus I and II.  
   - Clarifying key math and english concepts assessed by the SAT, improving score by 200+ points; researching and assigning practice worksheets.
