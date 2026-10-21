@@ -1,0 +1,24 @@
+/* Paste into your site's custom.scss (or include as a CSS file). */
+.tr-project { --tr-navy:#14243a; --tr-blue:#24668c; --tr-muted:#65748a; max-width: 1000px; margin: 0 auto; color:#243246; line-height:1.7; }
+.tr-project * { box-sizing:border-box; }
+.tr-hero { background:var(--tr-navy); color:#fff; padding:clamp(24px,5vw,56px); border-radius:16px; margin:16px 0 28px; }
+.tr-eyebrow,.tr-kicker { font-size:.76rem; font-weight:750; letter-spacing:.14em; text-transform:uppercase; }
+.tr-eyebrow { color:#a5d9f2; }
+.tr-kicker { color:var(--tr-blue); margin-bottom:6px; }
+.tr-hero h1 { color:#fff; font-size:clamp(1.8rem,4vw,3rem); line-height:1.12; margin:8px 0 18px; }
+.tr-lead { color:#dbe6f0; max-width:740px; font-size:1.1rem; }
+.tr-stats { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; margin-top:30px; }
+.tr-stats div { background:#273d57; padding:16px; border-radius:10px; }
+.tr-stats strong { display:block; font-size:clamp(1.3rem,3vw,2rem); line-height:1.2; color:#fff; }
+.tr-stats span { color:#d3dfeb; font-size:.82rem; }
+.tr-section { margin:52px 0; }
+.tr-section h2 { font-size:clamp(1.5rem,3vw,2rem); margin:0 0 16px; color:#14243a; }
+.tr-section p { max-width:820px; }
+.tr-figure { margin:18px 0; }
+.tr-figure img { width:100%; height:auto; display:block; border-radius:12px; background:#eef2f6; }
+.tr-figure figcaption { color:var(--tr-muted); font-size:.85rem; margin-top:8px; }
+.tr-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px; align-items:start; }
+.tr-grid .tr-figure { margin:10px 0; }
+.tr-callout { border-left:4px solid var(--tr-blue); background:#f1f6fa; padding:18px 22px; border-radius:0 10px 10px 0; margin:24px 0; }
+.tr-callout p { margin:6px 0 0; }
+@media(max-width:650px) { .tr-grid { grid-template-columns:1fr; } .tr-stats { gap:7px; } .tr-stats div { padding:10px; } .tr-stats span { font-size:.72rem; } .tr-section { margin:36px 0; } }
