@@ -5,7 +5,7 @@ description: "Mechanical design, dynamics, and testing of a tilt-rotor assembly 
 image: /assets/images/tiltrotor.jpg
 ---
 <link rel="stylesheet" href="{{ '/assets/css/tilt-rotor.css' | relative_url }}">
-
+<div class="tilt-rotor-page">
 <div class="tr-project">
   <div class="tr-hero">
     <p class="tr-eyebrow">CUAIR · AIRCRAFT SYSTEMS</p>
@@ -69,4 +69,5 @@ image: /assets/images/tiltrotor.jpg
     </div>
     <div class="tr-callout"><strong>Key takeaway</strong><p>The project connected analytical dynamics to real aircraft hardware, with flight testing driving rapid structural improvements and new control-system requirements.</p></div>
   </section>
+</div>
 </div>
