@@ -312,4 +312,48 @@ body:has(.tilt-rotor-page) .tr-project {
   margin-left: auto !important;
   margin-right: auto !important;
   box-sizing: border-box;
+}/* MATLAB CODE VIEWER */
+
+.tilt-rotor-page .tr-code-details {
+  border: 1px solid #d4dce5;
+  border-radius: 10px;
+  margin: 24px 0;
+  overflow: hidden;
+}
+
+.tilt-rotor-page .tr-code-details summary {
+  background: #152334;
+  color: white;
+  padding: 16px 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.tilt-rotor-page .tr-code-content {
+  background: #f8fafc;
+  padding: 20px;
+  overflow-x: auto;
+}
+
+.tilt-rotor-page .tr-code-content pre {
+  margin: 0;
+  white-space: pre;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.tilt-rotor-page .tr-code-link {
+  display: inline-block;
+  background: #2877a5;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 7px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+.tilt-rotor-page .tr-code-link:hover {
+  background: #195b80;
+  color: white;
 }

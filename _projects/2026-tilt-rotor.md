@@ -98,6 +98,45 @@ window.MathJax = {
     <p><strong>Engineering approach:</strong> rigid-body moment balance about the tilt pivot, including angular acceleration, gyroscopic coupling, and acceleration of the reference point. I am developing a MATLAB tool to evaluate revised geometries and vectored-yaw requirements more efficiently.</p>
   </section>
 
+<h3>MATLAB Dynamics Implementation</h3>
+
+<p>
+  I developed a MATLAB model to calculate the moments
+  acting on the tilt-rotor assembly about its pivot point,
+  accounting for angular acceleration, rotational coupling,
+  and acceleration of the pivot.
+</p>
+
+<details class="tr-code-details">
+  <summary>View MATLAB Dynamics Code</summary>
+
+  <div class="tr-code-content">
+    <pre><code>
+% Moment calculation about pivot Q
+
+% Angular acceleration contribution
+M_accel = I_Q_B * alpha_B;
+
+% Rotational coupling contribution
+M_coupling = cross(omega_B, I_Q_B * omega_B);
+
+% Pivot acceleration contribution
+M_pivot = -m * cross(r_QG_B, a_Q_B);
+
+% Total moment
+M_Q_B = M_accel + M_coupling + M_pivot;
+
+disp('Total applied moment [N*m]:');
+disp(M_Q_B);
+    </code></pre>
+  </div>
+</details>
+<a
+  href="{{ '/code/tilt-rotor/applied_loads_tilt_rotors.m' | relative_url }}"
+  class="tr-code-link"
+  download>
+  ↓ Download Full MATLAB Script
+</a>
   <section class="tr-section">
     <p class="tr-kicker">03 / VALIDATION</p>
     <h2>CAD and Structural Analysis</h2>
