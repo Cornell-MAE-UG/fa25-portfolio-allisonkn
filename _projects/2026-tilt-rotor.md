@@ -4,6 +4,7 @@ title: "Tilt-Rotor System | Hybrid eVTOL"
 description: "Mechanical design, dynamics, and testing of a tilt-rotor assembly for a 35-lb autonomous aircraft."
 image: /assets/images/tiltrotor.jpg
 ---
+<link rel="stylesheet" href="{{ '/assets/css/tilt-rotor.css' | relative_url }}">
 
 <div class="tr-project">
   <div class="tr-hero">
