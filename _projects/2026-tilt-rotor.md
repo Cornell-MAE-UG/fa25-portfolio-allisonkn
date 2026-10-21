@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: tilt-rotor
 title: "Tilt-Rotor System | Hybrid eVTOL"
 description: "Mechanical design, dynamics, and testing of a tilt-rotor assembly for a 35-lb autonomous aircraft."
 image: /assets/images/tilt-rotors-gallery/tiltrotor.png

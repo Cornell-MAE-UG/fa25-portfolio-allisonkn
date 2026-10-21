@@ -269,3 +269,25 @@ body:has(.tilt-rotor-page) .page__content {
   max-width: 1200px;
   box-sizing: border-box;
 }
+/* WIDE TILT-ROTOR PROJECT LAYOUT */
+
+body:has(.tilt-rotor-layout) main,
+body:has(.tilt-rotor-layout) .container,
+body:has(.tilt-rotor-layout) .content {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.tilt-rotor-layout {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.tilt-rotor-layout .tilt-rotor-page,
+.tilt-rotor-layout .tr-project {
+  width: 100%;
+  max-width: none;
+  box-sizing: border-box;
+}
