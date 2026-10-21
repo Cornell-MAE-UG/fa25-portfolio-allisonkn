@@ -112,27 +112,27 @@ window.MathJax = {
 
   <div class="tr-code-content">
     <pre><code>
-% Moment calculation about pivot Q
+M_Q_B = T_total + omega_cross_B*h_total_Q - m_G*r_QG_cross_B*a_QO_B
 
-% Angular acceleration contribution
-M_accel = I_Q_B * alpha_B;
+%% 8. Transfer moment from Q to P
 
-% Rotational coupling contribution
-M_coupling = cross(omega_B, I_Q_B * omega_B);
+% Position of P relative to Q, expressed in B
+r_QP_B = [0; h; 0];
 
-% Pivot acceleration contribution
-M_pivot = -m * cross(r_QG_B, a_Q_B);
+% Net external force on the system
+% Must be calculated from center-of-mass acceleration
+F_net_B = m_G * a_QO_B;
 
-% Total moment
-M_Q_B = M_accel + M_coupling + M_pivot;
+% Transfer moment from Q to P
+M_P_B = M_Q_B - cross(r_QP_B, F_net_B);
 
-disp('Total applied moment [N*m]:');
-disp(M_Q_B);
+disp('Moment about P [N*m]:');
+disp(M_P_B);
     </code></pre>
   </div>
 </details>
 <a
-  href="{{ '/code/tilt-rotor/applied_loads_tilt_rotors.m' | relative_url }}"
+  href="{{ '/code/tilt-rotor/applied_loads_tilt_rotors_fa26_revised.m' | relative_url }}"
   class="tr-code-link"
   download>
   ↓ Download Full MATLAB Script
