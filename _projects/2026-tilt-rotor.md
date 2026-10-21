@@ -68,7 +68,7 @@ image: /assets/images/tiltrotor.jpg
     <div class="tr-grid">
   <figure class="tr-figure">
     <img
-      src="/fa25-portfolio-allisonkn/assets/images/tilt-rotors-gallery/tilt-rotor-closeup-1.jpg"
+      src="/fa25-portfolio-allisonkn/assets/images/tilt-rotors-gallery/tilt-rotor-closeup-1.png"
       alt="Previous tilt-rotor design">
     <figcaption>Previous design.</figcaption>
   </figure>
