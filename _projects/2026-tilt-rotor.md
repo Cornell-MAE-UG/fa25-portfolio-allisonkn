@@ -151,7 +151,7 @@ disp(M_P_B);
     <p>I manufactured and assembled the tilt mechanism and designed tooling to improve alignment, rigidity, and repeatability during installation.</p>
     <div class="tr-grid">
       <figure class="tr-figure"><img src="{{ '/assets/images/tilt-rotors-gallery/tilt-rotors-assembly.png' | relative_url }}" alt="CAD of the motor mount" loading="lazy"><figcaption>Mechanical assembly CAD.</figcaption></figure>
-      <figure class="tr-figure"><img src="{{ '/assets/images/tiltrotor.jpg' | relative_url }}" alt="Manufactured tilt-rotor hardware" loading="lazy"><figcaption>Manufactured and assembled hardware.</figcaption></figure>
+      <figure class="tr-figure"><img src="{{ '/assets/images/tiltrotor.png' | relative_url }}" alt="Manufactured tilt-rotor hardware" loading="lazy"><figcaption>Manufactured and assembled hardware.</figcaption></figure>
     </div>
   </section>
 
