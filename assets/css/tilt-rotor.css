@@ -291,3 +291,25 @@ body:has(.tilt-rotor-layout) .content {
   max-width: none;
   box-sizing: border-box;
 }
+/* FIX OUTER JEKYLL LAYOUT WIDTH */
+
+body:has(.tilt-rotor-page) .wrapper,
+body:has(.tilt-rotor-page) .container,
+body:has(.tilt-rotor-page) .page-content,
+body:has(.tilt-rotor-page) main,
+body:has(.tilt-rotor-page) article {
+  width: 100% !important;
+  max-width: 1400px !important;
+  box-sizing: border-box;
+}
+
+/* Main project content */
+body:has(.tilt-rotor-page) .tilt-rotor-layout,
+body:has(.tilt-rotor-page) .tilt-rotor-page,
+body:has(.tilt-rotor-page) .tr-project {
+  width: 100% !important;
+  max-width: 1100px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box;
+}
