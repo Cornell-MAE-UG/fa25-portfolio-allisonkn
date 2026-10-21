@@ -246,3 +246,26 @@
   padding-top: 30px;
   border-top: 1px solid #d4dce5;
 }
+/* FIX NARROW PROJECT PAGE */
+
+.tilt-rotor-page {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.tilt-rotor-page .tr-project {
+  width: 100%;
+  max-width: none;
+  margin: 0 auto;
+}
+
+/* Override narrow default Jekyll containers */
+body:has(.tilt-rotor-page) main,
+body:has(.tilt-rotor-page) article,
+body:has(.tilt-rotor-page) .page__content {
+  width: 100%;
+  max-width: 1200px;
+  box-sizing: border-box;
+}
