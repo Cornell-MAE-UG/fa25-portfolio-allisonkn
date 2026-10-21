@@ -19,7 +19,9 @@ image: /assets/images/tiltrotor.jpg
   </div>
 
   <figure class="tr-figure">
-    <img src="{{ '/assets/images/tilt-rotors-gallery/tilt-rotor-side-closeup.png' | relative_url }}" alt="Tilt-rotor assembly mounted on CUAir aircraft" loading="lazy">
+    <img
+  src="/fa25-portfolio-allisonkn/assets/images/tilt-rotors-gallery/tilt-rotor-side-closeup.png"
+  alt="Tilt-rotor assembly on Atlas">
     <figcaption>CUAir hybrid eVTOL tilt-rotor system mounted on test-plane, Atlas.</figcaption>
   </figure>
 
