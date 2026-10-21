@@ -2,8 +2,7 @@
 layout: project
 title: "Tilt-Rotor System | Hybrid eVTOL"
 description: "Mechanical design, dynamics, and testing of a tilt-rotor assembly for a 35-lb autonomous aircraft.
-technologies: [SolidWorks, Ansys, MATLAB]
-image: /assets/images/tiltrotor.jpg
+image: /assets/images/tilt-rotors-gallery/tiltrotor.png
 ---
 <link rel="stylesheet" href="{{ '/assets/css/tilt-rotor.css' | relative_url }}">
 <script>
