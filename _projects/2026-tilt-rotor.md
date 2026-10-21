@@ -19,7 +19,7 @@ image: /assets/images/tiltrotor.jpg
   </div>
 
   <figure class="tr-figure">
-    <img src="{{ '/assets/images/tilt-rotors-gallery/tilt-rotor-side-closeup.jpg' | relative_url }}" alt="Tilt-rotor assembly mounted on CUAir aircraft" loading="lazy">
+    <img src="{{ '/assets/images/tilt-rotors-gallery/tilt-rotor-side-closeup.png' | relative_url }}" alt="Tilt-rotor assembly mounted on CUAir aircraft" loading="lazy">
     <figcaption>CUAir hybrid eVTOL tilt-rotor system mounted on test-plane, Atlas.</figcaption>
   </figure>
 
@@ -64,7 +64,7 @@ image: /assets/images/tiltrotor.jpg
     <h2>Testing and Redesign</h2>
     <p>I developed test procedures to assess transition speed at varying thrust levels. Following flight testing, I designed and manufactured two revised components in under two weeks to improve rigidity and support faster transitions compatible with our flight-control requirements. I'm currently working on a new design that incorporates vectored yaw. A redesign requires lengthening the bracket to allow for backwards tilt.</p>
     <div class="tr-grid">
-      <figure class="tr-figure"><img src="{{ '/assets/images/tilt-rotors-gallery/tilt-rotor-closeup.jpg' | relative_url }}" alt="Earlier tilt-rotor bracket design" loading="lazy"><figcaption>Previous design.</figcaption></figure>
+      <figure class="tr-figure"><img src="{{ '/assets/images/tilt-rotors-gallery/tilt-rotor-closeup-1.jpg' | relative_url }}" alt="Earlier tilt-rotor bracket design" loading="lazy"><figcaption>Previous design.</figcaption></figure>
       <figure class="tr-figure"><img src="{{ '/assets/images/tilt-rotors-gallery/tilt-rotors-profile-assembly.png' | relative_url }}" alt="Revised bracket post crash" loading="lazy"><figcaption>Revised assembly post crash.</figcaption></figure>
     </div>
     <div class="tr-callout"><strong>Key takeaway</strong><p>The project connected analytical dynamics to real aircraft hardware, with flight testing driving rapid structural improvements and new control-system requirements.</p></div>
