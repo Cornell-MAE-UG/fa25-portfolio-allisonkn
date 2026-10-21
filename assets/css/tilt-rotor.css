@@ -208,3 +208,41 @@
   background: #195b80;
   color: white;
 }
+/* PROJECT NAVIGATION */
+
+.tilt-rotor-page .tr-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  gap: 16px;
+}
+
+.tilt-rotor-page .tr-nav-link {
+  display: inline-block;
+  padding: 10px 18px;
+  background: #152334;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background 0.2s ease;
+}
+
+.tilt-rotor-page .tr-nav-link:hover {
+  background: #2877a5;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .tilt-rotor-page .tr-navigation {
+    flex-wrap: wrap;
+  }
+}
+.tilt-rotor-page .tr-bottom-navigation {
+  text-align: center;
+  margin: 60px 0 30px;
+  padding-top: 30px;
+  border-top: 1px solid #d4dce5;
+}

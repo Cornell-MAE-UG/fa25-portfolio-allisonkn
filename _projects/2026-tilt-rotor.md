@@ -19,6 +19,15 @@ window.MathJax = {
 </script>
 <div class="tilt-rotor-page">
 <div class="tr-project">
+<nav class="tr-navigation">
+  <a href="/fa25-portfolio-allisonkn/" class="tr-nav-link">
+    ← Home
+  </a>
+
+  <a href="/fa25-portfolio-allisonkn/projects/" class="tr-nav-link">
+    All Projects
+  </a>
+</nav>
   <div class="tr-hero">
     <p class="tr-eyebrow">CUAIR · AIRCRAFT SYSTEMS</p>
     <h1>Tilt-Rotor System for a Hybrid eVTOL Aircraft</h1>
@@ -130,5 +139,11 @@ window.MathJax = {
 </div>
     <div class="tr-callout"><strong>Key takeaway</strong><p>The project connected analytical dynamics to real aircraft hardware, with flight testing driving rapid structural improvements and new control-system requirements.</p></div>
   </section>
+</div>
+<div class="tr-bottom-navigation">
+  <a href="/fa25-portfolio-allisonkn/projects/"
+     class="tr-nav-link">
+    ← Back to All Projects
+  </a>
 </div>
 </div>
