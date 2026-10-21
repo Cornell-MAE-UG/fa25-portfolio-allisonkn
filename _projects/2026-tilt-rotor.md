@@ -45,7 +45,7 @@ image: /assets/images/tiltrotor.jpg
     <p class="tr-kicker">03 / VALIDATION</p>
     <h2>CAD and Structural Analysis</h2>
     <p>During the first iteration of the design, our system sustained unexpected loads and crashed. I evaluated bracket stress using ANSYS Static Structural to determine the required load that occured to result in a failed test flight. </p>
-    <figure class="tr-figure"><img src="{{ '/assets/images/tilt-rotor-gallery/ansys-load-to-induce-yield.png' | relative_url }}" alt="ANSYS equivalent stress result for the tilt-rotor bracket" loading="lazy"><figcaption>ANSYS equivalent-stress results required to induce yield during crash analysis.</figcaption></figure>
+    <figure class="tr-figure"><img src="{{ '/assets/images/tilt-rotors-gallery/ansys-load-to-induce-yield.png' | relative_url }}" alt="ANSYS equivalent stress result for the tilt-rotor bracket" loading="lazy"><figcaption>ANSYS equivalent-stress results required to induce yield during crash analysis.</figcaption></figure>
     <p>A redesign included doubling the bracket thickness and adding a stainless-steel retaining plate to prevent gears from demeshing.</p>
   </section>
 
@@ -54,7 +54,7 @@ image: /assets/images/tiltrotor.jpg
     <h2>Manufacturing and Assembly</h2>
     <p>I manufactured and assembled the tilt mechanism and designed tooling to improve alignment, rigidity, and repeatability during installation.</p>
     <div class="tr-grid">
-      <figure class="tr-figure"><img src="{{ '/assets/images/tilt-rotor-gallery/tilt-rotors-assembly.png' | relative_url }}" alt="CAD of the motor mount" loading="lazy"><figcaption>Mechanical assembly CAD.</figcaption></figure>
+      <figure class="tr-figure"><img src="{{ '/assets/images/tilt-rotors-gallery/tilt-rotors-assembly.png' | relative_url }}" alt="CAD of the motor mount" loading="lazy"><figcaption>Mechanical assembly CAD.</figcaption></figure>
       <figure class="tr-figure"><img src="{{ '/assets/images/tiltrotor.jpg' | relative_url }}" alt="Manufactured tilt-rotor hardware" loading="lazy"><figcaption>Manufactured and assembled hardware.</figcaption></figure>
     </div>
   </section>
@@ -64,8 +64,8 @@ image: /assets/images/tiltrotor.jpg
     <h2>Testing and Redesign</h2>
     <p>I developed test procedures to assess transition speed at varying thrust levels. Following flight testing, I designed and manufactured two revised components in under two weeks to improve rigidity and support faster transitions compatible with our flight-control requirements. I'm currently working on a new design that incorporates vectored yaw. A redesign requires lengthening the bracket to allow for backwards tilt.</p>
     <div class="tr-grid">
-      <figure class="tr-figure"><img src="{{ '/assets/images/tilt-rotor-gallery/tilt-rotor-closeup.jpg' | relative_url }}" alt="Earlier tilt-rotor bracket design" loading="lazy"><figcaption>Previous design.</figcaption></figure>
-      <figure class="tr-figure"><img src="{{ '/assets/images/tilt-rotor-gallery/tilt-rotors-profile-assembly.png' | relative_url }}" alt="Revised bracket post crash" loading="lazy"><figcaption>Revised assembly post crash.</figcaption></figure>
+      <figure class="tr-figure"><img src="{{ '/assets/images/tilt-rotors-gallery/tilt-rotor-closeup.jpg' | relative_url }}" alt="Earlier tilt-rotor bracket design" loading="lazy"><figcaption>Previous design.</figcaption></figure>
+      <figure class="tr-figure"><img src="{{ '/assets/images/tilt-rotors-gallery/tilt-rotors-profile-assembly.png' | relative_url }}" alt="Revised bracket post crash" loading="lazy"><figcaption>Revised assembly post crash.</figcaption></figure>
     </div>
     <div class="tr-callout"><strong>Key takeaway</strong><p>The project connected analytical dynamics to real aircraft hardware, with flight testing driving rapid structural improvements and new control-system requirements.</p></div>
   </section>
