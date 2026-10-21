@@ -80,20 +80,6 @@ window.MathJax = {
       <figure class="tr-figure"><img src="{{ '/assets/images/tilt-rotors-gallery/figure-11-16-dynamics.png' | relative_url }}" alt="Tilt-rotor free-body diagram with body axes and applied loads" loading="lazy"><figcaption>Free-body diagram and coordinate definitions.</figcaption></figure>
     </div>
     <div class="tr-grid">
-  <figure class="tr-figure">
-    <img
-      src="/fa25-portfolio-allisonkn/assets/images/tilt-rotors-gallery/tilt-rotor-closeup-1.png"
-      alt="Previous tilt-rotor design">
-    <figcaption>Previous design.</figcaption>
-  </figure>
-
-  <figure class="tr-figure">
-    <img
-      src="{{ '/assets/images/tilt-rotors-gallery/tilt-rotors-profile-assembly.png' | relative_url }}"
-      alt="Revised bracket post crash"
-      loading="lazy">
-    <figcaption>Revised assembly post crash.</figcaption>
-  </figure>
 </div>
     <p><strong>Engineering approach:</strong> rigid-body moment balance about the tilt pivot, including angular acceleration, gyroscopic coupling, and acceleration of the reference point. I am developing a MATLAB tool to evaluate revised geometries and vectored-yaw requirements more efficiently.</p>
   </section>
@@ -151,7 +137,7 @@ disp(M_P_B);
     <p>I manufactured and assembled the tilt mechanism and designed tooling to improve alignment, rigidity, and repeatability during installation.</p>
     <div class="tr-grid">
       <figure class="tr-figure"><img src="{{ '/assets/images/tilt-rotors-gallery/tilt-rotors-assembly.png' | relative_url }}" alt="CAD of the motor mount" loading="lazy"><figcaption>Mechanical assembly CAD.</figcaption></figure>
-      <figure class="tr-figure"><img src="{{ '/assets/images/tiltrotor.png' | relative_url }}" alt="Manufactured tilt-rotor hardware" loading="lazy"><figcaption>Manufactured and assembled hardware.</figcaption></figure>
+      <figure class="tr-figure"><img src="{{ '/assets/images/tilt-rotors-gallery/tiltrotor.png' | relative_url }}" alt="Manufactured tilt-rotor hardware" loading="lazy"><figcaption>Manufactured and assembled hardware.</figcaption></figure>
     </div>
   </section>
 
