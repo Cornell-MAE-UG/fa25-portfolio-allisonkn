@@ -5,6 +5,7 @@ permalink: /projects/2025-torque-wrench/
 description: "Finite element analysis, material selection, and strain gauge integration."
 technologies: [SolidWorks, Ansys, MATLAB]
 image: /assets/images/Torque-Wrench-Ansys.png
+order: 2
 ---
 
 

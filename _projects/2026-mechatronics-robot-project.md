@@ -4,6 +4,7 @@ title: "Autonomous Cube-Collecting Robot"
 permalink: /projects/2026-mechatronics-robot-project/
 description: "Design and fabrication of an autonomous competition robot with a custom acrylic chassis and reactive navigation."
 technologies: [SolidWorks, Arduino, C++, Laser Cutting, 3D Printing]
+image: /assets/images/Robot-Final.jpeg
 order: 3
 ---
 

@@ -2,7 +2,9 @@
 layout: tilt-rotor
 title: "Tilt-Rotor System | Hybrid eVTOL"
 description: "Mechanical design, dynamics, and testing of a tilt-rotor assembly for a 35-lb autonomous aircraft."
-image: /assets/images/tilt-rotors-gallery/tiltrotor.png
+image: /assets/images/tilt-rotors-gallery/tilt-rotor-side-closeup.png
+technologies: [SolidWorks, MATLAB, Ansys, Sheet-Metal Bending]
+order: 1
 ---
 <link rel="stylesheet" href="{{ '/assets/css/tilt-rotor.css' | relative_url }}">
 <script>
