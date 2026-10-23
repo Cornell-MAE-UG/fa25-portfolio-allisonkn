@@ -1,25 +1,154 @@
 ---
 layout: default
-title: "Projects"
+title: Projects
 permalink: /projects/
 ---
 
-<div class="gallery-container">
-  <div class="project-gallery">
+<div class="tilt-rotor-page">
+  <div class="tr-project projects-gallery">
 
-    {% assign sorted_projects = site.projects | sort: "order" %}
+    <!-- PAGE HEADER -->
 
-    {% for project in sorted_projects %}
-      <div class="gallery-item">
-        <a href="{{ project.url | relative_url }}">
-          {% if project.image %}
-            <img src="{{ project.image | relative_url }}"
-                 alt="{{ project.title | escape }}">
-          {% endif %}
-          <p>{{ project.title }}</p>
-        </a>
+    <header class="tr-hero">
+      <div class="tr-eyebrow">ENGINEERING PORTFOLIO</div>
+
+      <h1>Selected Projects</h1>
+
+      <p class="tr-lead">
+        A collection of mechanical engineering projects spanning
+        aerospace systems, structural analysis, product design,
+        manufacturing, and robotics.
+      </p>
+
+      <div class="tr-stats">
+        <div>
+          <strong>03</strong>
+          <span>Featured projects</span>
+        </div>
+
+        <div>
+          <strong>CAD</strong>
+          <span>Mechanical design & fabrication</span>
+        </div>
+
+        <div>
+          <strong>FEA</strong>
+          <span>Analysis & validation</span>
+        </div>
       </div>
-    {% endfor %}
+    </header>
+
+
+    <!-- PROJECT CARDS -->
+
+    <section class="tr-section">
+      <div class="tr-kicker">01 / FEATURED WORK</div>
+      <h2>Engineering Projects</h2>
+
+      <p>
+        Explore each project to learn more about the design process,
+        technical challenges, analysis, fabrication, and results.
+      </p>
+
+      <div class="projects-card-grid">
+
+        <!-- TILT-ROTOR -->
+
+        <article class="projects-card">
+
+          <a href="{{ '/projects/2026-tilt-rotor/' | relative_url }}"
+             class="projects-card-image">
+            <img
+              src="{{ '/assets/images/tilt-rotors-gallery/tiltrotor.jpg' | relative_url }}"
+              alt="Tilt-rotor assembly for a hybrid eVTOL aircraft"
+            >
+          </a>
+
+          <div class="projects-card-body">
+            <div class="tr-kicker">AEROSPACE · MECHANICAL DESIGN</div>
+
+            <h3>Tilt-Rotor System for a Hybrid eVTOL Aircraft</h3>
+
+            <p>
+              Mechanical development of a rotating motor mount,
+              including dynamics modeling, structural analysis,
+              manufacturing, and flight testing.
+            </p>
+
+            <a class="tr-code-link"
+               href="{{ '/projects/2026-tilt-rotor/' | relative_url }}">
+              Explore Project →
+            </a>
+          </div>
+
+        </article>
+
+
+        <!-- TORQUE WRENCH -->
+
+        <article class="projects-card">
+
+          <a href="{{ '/projects/2025-torque-wrench/' | relative_url }}"
+             class="projects-card-image">
+            <img
+              src="{{ '/assets/images/Torque-Wrench-Ansys.png' | relative_url }}"
+              alt="Torque wrench engineering project"
+            >
+          </a>
+
+          <div class="projects-card-body">
+            <div class="tr-kicker">MECHANICAL DESIGN · STRUCTURAL ANALYSIS</div>
+
+            <h3>Torque Wrench Design & Analysis</h3>
+
+            <p>
+              Mechanical design and structural evaluation of a
+              torque wrench, combining engineering calculations,
+              CAD modeling, and finite element analysis.
+            </p>
+
+            <a class="tr-code-link"
+               href="{{ '/projects/2025-torque-wrench/' | relative_url }}">
+              Explore Project →
+            </a>
+          </div>
+
+        </article>
+
+
+        <!-- MECHATRONICS -->
+
+        <article class="projects-card">
+
+          <a href="{{ '/projects/2026-mechatronics-robot-project/' | relative_url }}"
+             class="projects-card-image">
+            <img
+              src="{{ '/assets/images/Robot-Final.jpg' | relative_url }}"
+              alt="Autonomous cube-collecting robot"
+            >
+          </a>
+
+          <div class="projects-card-body">
+            <div class="tr-kicker">MECHATRONICS · ROBOTICS</div>
+
+            <h3>Autonomous Cube-Collecting Robot</h3>
+
+            <p>
+              Custom acrylic competition robot featuring a
+              servo-driven drivetrain, cube-collection mechanism,
+              and autonomous boundary avoidance.
+            </p>
+
+            <a class="tr-code-link"
+               href="{{ '/projects/2026-mechatronics-robot-project/' | relative_url }}">
+              Explore Project →
+            </a>
+          </div>
+
+        </article>
+
+      </div>
+    </section>
 
   </div>
 </div>
