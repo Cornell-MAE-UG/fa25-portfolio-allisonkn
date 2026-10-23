@@ -6,12 +6,12 @@ title: Allison Newman
 ## About Me
 
 
-![Profile Picture]({{ "assets/images/NewmanAllisonHeadshot.JPG" | relative_url }}){: class="profile-image"}
+![Profile Picture]({{ "assets/images/headshot.jpg" | relative_url }}){: class="profile-image"}
 
  
-My name is {{ site.name }}, and I am a Mechanical and Aerospace Engineering Student at Cornell University. My greatest strength is in my ability to dabble in a multitude of interests and apply those learned skills in interdisciplinary projects. My background in wood technology and manufacturing, combined with my education in STEM has allowed me to complete multiple projects.
+I've always been a builder. Whether I'm repairing a sewing machine, woodworking, or designing hardware for an autonomous aircraft, I'm happiest when I'm figuring out how something works and how I can make it work better.
 
-I'm most proud of my work on CUAir, an aerospace project team at Cornell University, where I've learned many skills, from SolidWorks to structural analysis and composite layups. In combination with my preexisting knowledge of materials from wood shop projects and customization from sewing and knitting projects, CUAir has helped me expand my skillset to aerospace. 
+I'm currently studying mechanical engineering at Cornell University, where I've found a way to combine my lifelong fascination with aerospace and my love for hands-on problem-solving. Growing up in Los Angeles, surrounded by the aerospace industry, inspired my interest in space-systems. Today, I'm especially drawn to the intersection of mechanical design, dynamics, and manufacturing, where analytical models meet the messy, rewarding reality of building and testing physical systems.
 
 Outside of school and projects, I'm an avid hiker, fisher, and enjoyer of all things nature and plants! Connect with me if you'd like to get to know more about my experiences, engineering or otherwise.
 

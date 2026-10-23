@@ -5,7 +5,7 @@ permalink: /cv/
 ---
 ## Curriculum Vitae
 
-[Download my CV]({{ "/assets/Allison K. Newman Resume Aug. 2026.pdf" | relative_url }}) in PDF format.
+[Download my CV]({{ "/assets/Allison_K_Newman_Resume.pdf" | relative_url }}) in PDF format.
 
 
 **Email:** [akn47@cornell.edu](mailto:akn47@cornell.edu) | | | **Phone:** (323)807-3076
@@ -13,14 +13,16 @@ permalink: /cv/
 ---
 
 #### Objective
-A Mechanical and Aerospace Engineering Undergraduate at Cornell aspiring to work in a structures and testing role for a startup or heritage aerospace company.
+A Mechanical and Aerospace Engineering Undergraduate at Cornell aspiring to work in a structures and testing role for a startup aerospace company.
 
 ---
 
 #### Education
 - **Cornell University**  
   *Bachelor of Science in Mechanical and Aerospace Engineering*  
-  GPA: 3.93/4.0 | Graduation: Expected May 2027
+  GPA: 3.93/4.0 | Graduation: Expected Dec. 2027
+  *Masters of Engineering in Aerospace Engineering*
+  Graduation: Expected May. 2028
 
 - **Mark Keppel High School**  
   *High School Diploma*  
@@ -39,9 +41,12 @@ A Mechanical and Aerospace Engineering Undergraduate at Cornell aspiring to work
 #### Projects
 - **Tilt Rotor Mechanism for 35lb eVTOL Aircraft, CUAir Project**:  
   *Propulsion System for SUAS International Collegiate Competition*  
-  - Designed a tilt rotor mechanism to provide 45lbs of thrust, capable of flying at 25m/s. - Enables transitioning between horizontal and vertical flight.
-  - Performed statics and dynamics hand calcs on boom, clevis, and gear geometry to ensure a high factor of safety against bearing and bending stress. 
-Modeled in SolidWorks linkage vs. gear design to determine optimal rotation mechanics; converted sheet metal properties from Send Cut Send.
+ - Designed and sized a tilt-rotor mechanism providing 45lbs of horizontal thrust at 25m/s, enabling high-speed flight mode transitions at 180 deg./sec. while maintaining minimum factors of safety (FOS) of 1.5 against horizontal thrust-to-weight ratio and 1.4 against bracket yield.
+ - Calculated load paths and critical stresses using first-principles statics and dynamics to evaluate boom, clevis, and gear geometry for bending, bearing, buckling, and yield margins.
+ - Validated stiffness and deflection limits via Ansys static structural finite element analysis (FEA) across the booms, brackets, gears, and bearings. Evaluated linkage vs. gear-driven actuation in SolidWorks to optimize rotation mechanics.
+ - Developed coupled thrust-and-rotation test protocols to validate kinematic performance, structural integrity, and operational safety limits.
+ - Performed crash analysis to identify load to induce yield on rotating bracket (50 Nm) and gear demeshing. To address deformation, designed a steel retaining plate to absorb load, increasing rigidity by ~8 times to prevent gears from demeshing.
+
 
 - **Object-Collecting Robot, Mechatronics Project**
   - Ranked 3rd out of 60 teams for collecting the most blocks against another robot opponent; collected up to 15 blocks in <1 min.
@@ -64,6 +69,10 @@ Modeled in SolidWorks linkage vs. gear design to determine optimal rotation mech
   - Sliced, printed, and packaged 26 to-scale parts of the modernized Black Hawk nose for a trade-show in under 2 weeks utilizing 3 F900 printers.
   - Designed fixtures to assist in stamping part-numbers onto welding substrates, removing laser powderbed fusion parts, and depositing welding rods.
   - Conceptualized propulsion system for hybrid VTOL aircraft capable of providing 18HP and hovering for 20 minutes; awarded 2nd place. Performed trade study on motor & engine. Chose rotor and ESC to accompany motors; created test & safety guide for ground and flight tests
+
+- **Mechanical Engineering Department, Cornell Engineering - Undergraduate Teaching Assistant for Fluid Mechanics**  
+  August 2026 - Current
+  - Demonstrating fluid concepts using Schlieren imaging, forklift hydraulics, and engine dissections to 3 classes of 20 third-year students per week. 
 
 - **Office of Inclusive Excellence, Cornell Engineering - Academic Excellence Workshop Facilitator for Linear Algebra**  
   August 2025 - May 2026  
