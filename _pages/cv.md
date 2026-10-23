@@ -21,7 +21,9 @@ A Mechanical and Aerospace Engineering Undergraduate at Cornell aspiring to work
 - **Cornell University**  
   *Bachelor of Science in Mechanical and Aerospace Engineering*  
   GPA: 3.93/4.0 | Graduation: Expected Dec. 2027
+  
   *Masters of Engineering in Aerospace Engineering*
+  
   Graduation: Expected May. 2028
 
 - **Mark Keppel High School**  
@@ -41,11 +43,11 @@ A Mechanical and Aerospace Engineering Undergraduate at Cornell aspiring to work
 #### Projects
 - **Tilt Rotor Mechanism for 35lb eVTOL Aircraft, CUAir Project**:  
   *Propulsion System for SUAS International Collegiate Competition*  
- - Designed and sized a tilt-rotor mechanism providing 45lbs of horizontal thrust at 25m/s, enabling high-speed flight mode transitions at 180 deg./sec. while maintaining minimum factors of safety (FOS) of 1.5 against horizontal thrust-to-weight ratio and 1.4 against bracket yield.
- - Calculated load paths and critical stresses using first-principles statics and dynamics to evaluate boom, clevis, and gear geometry for bending, bearing, buckling, and yield margins.
- - Validated stiffness and deflection limits via Ansys static structural finite element analysis (FEA) across the booms, brackets, gears, and bearings. Evaluated linkage vs. gear-driven actuation in SolidWorks to optimize rotation mechanics.
- - Developed coupled thrust-and-rotation test protocols to validate kinematic performance, structural integrity, and operational safety limits.
- - Performed crash analysis to identify load to induce yield on rotating bracket (50 Nm) and gear demeshing. To address deformation, designed a steel retaining plate to absorb load, increasing rigidity by ~8 times to prevent gears from demeshing.
+  - Designed and sized a tilt-rotor mechanism providing 45lbs of horizontal thrust at 25m/s, enabling high-speed flight mode transitions at 180 deg./sec. while maintaining minimum factors of safety (FOS) of 1.5 against horizontal thrust-to-weight ratio and 1.4 against bracket yield.
+  - Calculated load paths and critical stresses using first-principles statics and dynamics to evaluate boom, clevis, and gear geometry for bending, bearing, buckling, and yield margins.
+  - Validated stiffness and deflection limits via Ansys static structural finite element analysis (FEA) across the booms, brackets, gears, and bearings. Evaluated linkage vs. gear-driven actuation in SolidWorks to optimize rotation mechanics.
+  - Developed coupled thrust-and-rotation test protocols to validate kinematic performance, structural integrity, and operational safety limits.
+  - Performed crash analysis to identify load to induce yield on rotating bracket (50 Nm) and gear demeshing. To address deformation, designed a steel retaining plate to absorb load, increasing rigidity by ~8 times to prevent gears from demeshing.
 
 
 - **Object-Collecting Robot, Mechatronics Project**
@@ -64,6 +66,7 @@ A Mechanical and Aerospace Engineering Undergraduate at Cornell aspiring to work
 #### Work Experience
 
 - **Lockheed Martin RMS–Sikorsky, Assembly & Flight Operations - Manufacturing Engineering Intern**
+  
   May 2026 - August 2026
   - Simulated and modeled gas-purging process using inert gas for AFSD with STAR-CCM+ and Ansys to demonstrate inefficiencies in current setup and suggest improvements for future systems. Familiarized myself with steady, transient and turbulent models; implemented passive scalar models.
   - Sliced, printed, and packaged 26 to-scale parts of the modernized Black Hawk nose for a trade-show in under 2 weeks utilizing 3 F900 printers.
