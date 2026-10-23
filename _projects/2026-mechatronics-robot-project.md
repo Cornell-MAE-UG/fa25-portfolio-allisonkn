@@ -63,7 +63,7 @@ order: 3
 
   <figure class="tr-figure">
     <img
-      src="{{ '/assets/images/Robot-Final.jpg' | relative_url }}"
+      src="{{ '/assets/images/Robot-Final.JPEG' | relative_url }}"
       alt="Completed autonomous cube-collecting robot"
     >
     <figcaption>

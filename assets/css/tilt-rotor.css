@@ -549,3 +549,79 @@ body:has(.tilt-rotor-page) .tr-project {
     grid-template-columns: 1fr;
   }
 }
+/* =========================================
+   MAIN PROJECTS GALLERY
+   ========================================= */
+
+.tilt-rotor-page .projects-card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 26px;
+  margin-top: 30px;
+}
+
+.tilt-rotor-page .projects-card {
+  background: #ffffff;
+  border: 1px solid #dce6ef;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 6px 24px rgba(21, 35, 52, 0.07);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tilt-rotor-page .projects-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(21, 35, 52, 0.12);
+}
+
+.tilt-rotor-page .projects-card-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background: #edf4f9;
+}
+
+.tilt-rotor-page .projects-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.tilt-rotor-page .projects-card:hover img {
+  transform: scale(1.04);
+}
+
+.tilt-rotor-page .projects-card-body {
+  padding: 26px;
+}
+
+.tilt-rotor-page .projects-card-body h3 {
+  color: #152334;
+  font-size: 23px;
+  line-height: 1.3;
+  margin: 12px 0;
+}
+
+.tilt-rotor-page .projects-card-body p {
+  color: #506274;
+  margin-bottom: 18px;
+}
+
+.tilt-rotor-page .projects-card-body .tr-code-link {
+  margin-top: 8px;
+}
+
+/* Mobile layout */
+
+@media (max-width: 750px) {
+  .tilt-rotor-page .projects-card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tilt-rotor-page .projects-card-body {
+    padding: 22px;
+  }
+}
