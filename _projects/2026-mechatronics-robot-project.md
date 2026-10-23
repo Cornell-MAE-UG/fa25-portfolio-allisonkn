@@ -35,7 +35,7 @@ order: 3
       featuring a custom laser-cut acrylic chassis, a
       servo-driven collection mechanism, and sensor-based
       boundary avoidance. The robot advanced to the
-      semifinals and finished fourth overall.
+      semifinals and finished third overall.
     </p>
 
     <div class="tr-stats">
