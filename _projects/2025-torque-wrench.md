@@ -1,11 +1,12 @@
-
 ---
 layout: tilt-rotor
 title: "Torque Wrench | Structural Analysis & Strain Gauge Design"
-description: "Finite element analysis, material selection, and strain gauge integration for a torque wrench designed to meet structural and measurement requirements."
+permalink: /projects/2025-torque-wrench/
+description: "Finite element analysis, material selection, and strain gauge integration."
 technologies: [SolidWorks, Ansys, MATLAB]
 image: /assets/images/Torque-Wrench-Ansys.png
 ---
+
 
 <link rel="stylesheet" href="{{ '/assets/css/tilt-rotor.css' | relative_url }}">
 
