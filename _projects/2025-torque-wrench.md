@@ -15,10 +15,11 @@ order: 2
 <div class="tr-project">
 
   <!-- NAVIGATION -->
-  <nav class="tr-navigation">
-    <a class="tr-nav-link" href="{{ '/' | relative_url }}">← Home</a>
-    <a class="tr-nav-link" href="{{ '/projects/' | relative_url }}">← All Projects</a>
-  </nav>
+<nav class="tr-navigation">
+  <a class="tr-nav-link" href="{{ '/projects/' | relative_url }}">
+    ← All Projects
+  </a>
+</nav>
 
   <!-- HERO -->
   <header class="tr-hero">
@@ -368,10 +369,11 @@ order: 2
   </section>
 
   <!-- FOOTER NAVIGATION -->
-  <nav class="tr-navigation">
-    <a class="tr-nav-link" href="{{ '/projects/' | relative_url }}">← All Projects</a>
-    <a class="tr-nav-link" href="{{ '/' | relative_url }}">Home</a>
-  </nav>
+ <div class="tr-bottom-navigation">
+  <a class="tr-nav-link" href="{{ '/projects/' | relative_url }}">
+    ← Back to All Projects
+  </a>
+</div>
 
 </div>
 </div>

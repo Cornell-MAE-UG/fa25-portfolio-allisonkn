@@ -21,12 +21,8 @@ window.MathJax = {
 <div class="tilt-rotor-page">
 <div class="tr-project">
 <nav class="tr-navigation">
-  <a href="/fa25-portfolio-allisonkn/" class="tr-nav-link">
-    ← Home
-  </a>
-
-  <a href="/fa25-portfolio-allisonkn/projects/" class="tr-nav-link">
-    All Projects
+  <a class="tr-nav-link" href="{{ '/projects/' | relative_url }}">
+    ← All Projects
   </a>
 </nav>
   <div class="tr-hero">
@@ -167,8 +163,7 @@ disp(M_P_B);
   </section>
 </div>
 <div class="tr-bottom-navigation">
-  <a href="/fa25-portfolio-allisonkn/projects/"
-     class="tr-nav-link">
+  <a class="tr-nav-link" href="{{ '/projects/' | relative_url }}">
     ← Back to All Projects
   </a>
 </div>

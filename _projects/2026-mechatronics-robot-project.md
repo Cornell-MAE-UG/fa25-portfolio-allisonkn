@@ -13,11 +13,11 @@ order: 3
 
   <!-- NAVIGATION -->
 
-  <nav class="tr-navigation">
-    <a class="tr-nav-link" href="{{ '/projects/' | relative_url }}">
-      ← All Projects
-    </a>
-  </nav>
+<nav class="tr-navigation">
+  <a class="tr-nav-link" href="{{ '/projects/' | relative_url }}">
+    ← All Projects
+  </a>
+</nav>
 
 
   <!-- HERO -->
@@ -41,7 +41,7 @@ order: 3
     <div class="tr-stats">
 
       <div>
-        <strong>4th</strong>
+        <strong>3rd</strong>
         <span>Overall competition placement</span>
       </div>
 
@@ -434,15 +434,10 @@ order: 3
   <!-- BOTTOM NAVIGATION -->
 
   <div class="tr-bottom-navigation">
-
-    <a
-      class="tr-nav-link"
-      href="{{ '/projects/' | relative_url }}"
-    >
-      ← Back to All Projects
-    </a>
-
-  </div>
+  <a class="tr-nav-link" href="{{ '/projects/' | relative_url }}">
+    ← Back to All Projects
+  </a>
+</div>
 
 </div>
 </div>
