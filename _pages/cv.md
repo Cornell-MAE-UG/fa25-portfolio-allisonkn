@@ -23,7 +23,6 @@ A Mechanical and Aerospace Engineering Undergraduate at Cornell aspiring to work
   GPA: 3.93/4.0 | Graduation: Expected Dec. 2027
   
   *Masters of Engineering in Aerospace Engineering*
-  
   Graduation: Expected May. 2028
 
 - **Mark Keppel High School**  
@@ -66,7 +65,6 @@ A Mechanical and Aerospace Engineering Undergraduate at Cornell aspiring to work
 #### Work Experience
 
 - **Lockheed Martin RMS–Sikorsky, Assembly & Flight Operations - Manufacturing Engineering Intern**
-  
   May 2026 - August 2026
   - Simulated and modeled gas-purging process using inert gas for AFSD with STAR-CCM+ and Ansys to demonstrate inefficiencies in current setup and suggest improvements for future systems. Familiarized myself with steady, transient and turbulent models; implemented passive scalar models.
   - Sliced, printed, and packaged 26 to-scale parts of the modernized Black Hawk nose for a trade-show in under 2 weeks utilizing 3 F900 printers.
