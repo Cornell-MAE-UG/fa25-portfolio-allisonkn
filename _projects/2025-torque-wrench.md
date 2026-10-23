@@ -1,125 +1,375 @@
+
 ---
-layout: project
-title: Torque Wrench Ansys
-description: Mechanics of Materials Project
+layout: tilt-rotor
+title: "Torque Wrench | Structural Analysis & Strain Gauge Design"
+description: "Finite element analysis, material selection, and strain gauge integration for a torque wrench designed to meet structural and measurement requirements."
 technologies: [SolidWorks, Ansys, MATLAB]
 image: /assets/images/Torque-Wrench-Ansys.png
 ---
-In my Mechanics of Materials Class, I was asked to analyze a baseline torque wrench design, modeled as a cantilever beam, in Ansys. I utilized MATLAB to perform some hand calculations to verify that the torque wrench maintained a safety factor of 4 against yield, 2 against crack growth, and 1.5 against fatigue when subjected to a 600 lbf torque. 
 
-In my modified design, I changed the material to be a steel-chromium alloy, AISI H19, to meet the factor of safety. I also narrowed a region near the drive to increase strain gauge sensitivity for my selection: 1-DY11-6/350 from HBK. 
+<link rel="stylesheet" href="{{ '/assets/css/tilt-rotor.css' | relative_url }}">
 
-**1. CAD Model**
+<div class="tilt-rotor-page">
+<div class="tr-project">
 
-![Torque Wrench]({{ "assets/images/Torque-Wrench-CAD1.png" | relative_url }}){: class=".wrench-image"}
+  <!-- NAVIGATION -->
+  <nav class="tr-navigation">
+    <a class="tr-nav-link" href="{{ '/' | relative_url }}">← Home</a>
+    <a class="tr-nav-link" href="{{ '/projects/' | relative_url }}">← All Projects</a>
+  </nav>
 
-*Figure 1: CAD model of the modified torque wrench design*
+  <!-- HERO -->
+  <header class="tr-hero">
+    <p class="tr-eyebrow">MECHANICS OF MATERIALS · FEA · INSTRUMENTATION</p>
+    <h1>Torque Wrench Design & Structural Optimization</h1>
+    <p>
+      Redesigning a torque wrench to withstand a 600 lbf·in applied torque
+      while maintaining structural safety and achieving the strain
+      sensitivity required for accurate torque measurement.
+    </p>
+    <p><strong>Tools:</strong> SolidWorks · Ansys Mechanical · MATLAB</p>
+  </header>
 
-Relevant dimensions:
+  <!-- KEY RESULTS -->
+  <div class="tw-metrics">
+    <div class="tw-metric">
+      <strong>600</strong>
+      <span>lbf·in design torque</span>
+    </div>
+    <div class="tw-metric">
+      <strong>1.0054</strong>
+      <span>mV/V calculated sensitivity</span>
+    </div>
+    <div class="tw-metric">
+      <strong>0.198</strong>
+      <span>in maximum deflection</span>
+    </div>
+    <div class="tw-metric">
+      <strong>33,966</strong>
+      <span>psi maximum normal stress</span>
+    </div>
+  </div>
 
-Drive
-- Total height = 0.50 in.
-- Height of clamped region = 0.40 in.
-- Cross-section = ⅜ in. x ⅜ in. 
-- Fillet radius (at connection to handle and at 4 edges) = 0.10 in.
+  <!-- 01 OVERVIEW -->
+  <section class="tw-section">
+    <p class="tw-section-number">01 / PROJECT OVERVIEW</p>
+    <h2>Engineering Challenge</h2>
 
-Handle
-- Total length  = 17.20 in.
-- Distance between (center of) strain gauge and free end = 15.00 in.
-- Distance between (right end of) drive and free end (L) = 16.60 in.
-- Distance between drive and strain gauge (c) = 16.60 - 15.00 = 1.6 in.
-- Height (b) = 0.50 in.
-- Width at widest point (h2) = 0.75 in.
-- Width at strain gauge, i.e. width at narrowest point (h1) = 0.45 in
+    <p>
+      For my Mechanics of Materials course, I analyzed and modified
+      a baseline torque wrench design, modeled as a cantilever beam.
+      The objective was to develop a design that satisfied structural
+      safety requirements while producing a sufficiently strong
+      strain-gauge signal for torque measurement.
+    </p>
 
-**2. Material Used and its Relevant Mechanical Properties**
+    <p>
+      Using MATLAB calculations and finite element analysis in Ansys,
+      I evaluated the wrench against three design requirements:
+    </p>
 
-Material: Tool steel, chromium alloy, AISI H19
+    <div class="tw-requirements">
+      <div><strong>4.0</strong><span>Required factor of safety against yielding</span></div>
+      <div><strong>2.0</strong><span>Required factor of safety against crack growth</span></div>
+      <div><strong>1.5</strong><span>Required factor of safety against fatigue</span></div>
+    </div>
 
-Description: 
-Relevant material properties (using upper end values):
-- E = 32 * 106 psi
-- 𝜈 = 0.29
-- 𝜎_o = 260 *103  psi
-- KIC = 30.4 * 103 psi-in1/2
-- 𝜎_fatigue = 78.3 *103 psi (for 106 cycles)
+    <p>
+      My modified design used AISI H19 chromium-alloy tool steel
+      and a locally narrowed handle section to increase bending
+      strain at the strain gauge location.
+    </p>
+  </section>
 
-**3. Loads and Boundary Conditions in Ansys**
+  <!-- 02 CAD -->
+  <section class="tw-section">
+    <p class="tw-section-number">02 / MECHANICAL DESIGN</p>
+    <h2>CAD Geometry & Design Modifications</h2>
 
-![Torque Wrench]({{ "assets/images/BoundaryConditions.png" | relative_url }}){: class=".wrench-image"}
+    <p>
+      I modified the torque wrench geometry to balance two competing
+      objectives: maintaining sufficient strength under the design
+      load and increasing the measurable strain in the handle.
+      A narrowed region near the drive concentrates bending strain
+      where the strain gauge is installed.
+    </p>
 
-*Figure 2: Application of loads and boundary conditions in Ansys*
+    <figure class="tw-figure">
+      <img src="{{ '/assets/images/Torque-Wrench-CAD1.png' | relative_url }}"
+           alt="CAD model of modified torque wrench">
+      <figcaption>Figure 1. CAD model of the modified torque wrench.</figcaption>
+    </figure>
 
-As shown in the diagram, the body corresponding to the top 0.4” of the drive is fixed. The force applied to the end is F = -36.14 lbf z. Since the torque applied at the drive must be 600 lbf-in, and the distance from the end to the drive shaft is 16.6 in, this yields a force with magnitude of 600/16.6 = 36.14.
+    <h3>Key Dimensions</h3>
 
-**4. Normal strain contours (in the strain gauge direction) from FEM**
+    <div class="tw-table-wrap">
+      <table class="tw-table">
+        <thead>
+          <tr><th>Feature</th><th>Dimension</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Total handle length</td><td>17.20 in</td></tr>
+          <tr><td>Effective moment arm</td><td>16.60 in</td></tr>
+          <tr><td>Handle height</td><td>0.50 in</td></tr>
+          <tr><td>Maximum handle width</td><td>0.75 in</td></tr>
+          <tr><td>Width at strain gauge</td><td>0.45 in</td></tr>
+          <tr><td>Distance from drive to strain gauge</td><td>1.60 in</td></tr>
+          <tr><td>Drive cross-section</td><td>3/8 × 3/8 in</td></tr>
+          <tr><td>Clamped drive height</td><td>0.40 in</td></tr>
+          <tr><td>Fillet radius</td><td>0.10 in</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
 
-![Torque Wrench]({{ "assets/images/NormalElasticStrainContour.png" | relative_url }}){: class=".wrench-image"}
+  <!-- 03 MATERIAL -->
+  <section class="tw-section">
+    <p class="tw-section-number">03 / MATERIAL SELECTION</p>
+    <h2>High-Strength Tool Steel</h2>
 
-*Figure 3a: Normal elastic strain contour, in the x-direction*
+    <p>
+      I selected AISI H19 chromium-alloy tool steel for its
+      mechanical properties and suitability for the specified
+      structural safety requirements.
+    </p>
 
-![Torque Wrench]({{ "assets/images/ZoomedNormalElasticStrain.png" | relative_url }}){: class=".wrench-image"}
+    <div class="tw-table-wrap">
+      <table class="tw-table">
+        <thead>
+          <tr><th>Material Property</th><th>Value Used</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Young's modulus</td><td>32 × 10⁶ psi</td></tr>
+          <tr><td>Poisson's ratio</td><td>0.29</td></tr>
+          <tr><td>Yield strength</td><td>260,000 psi</td></tr>
+          <tr><td>Fracture toughness, K<sub>IC</sub></td><td>30.4 × 10³ psi√in</td></tr>
+          <tr><td>Fatigue strength at 10⁶ cycles</td><td>78,300 psi</td></tr>
+        </tbody>
+      </table>
+    </div>
 
-*Figure 3b: Zoomed in on locations of maximum and minimum 𝜀xx (0.00109 and -0.00118, respectively)*
+    <p class="tw-note">
+      Material properties shown are the upper-end values used
+      in the original project analysis.
+    </p>
+  </section>
 
-**5. Contour plot of maximum principal stress from FEM**
+  <!-- 04 FEA -->
+  <section class="tw-section">
+    <p class="tw-section-number">04 / STRUCTURAL ANALYSIS</p>
+    <h2>Finite Element Modeling in Ansys</h2>
 
-![Torque Wrench]({{ "assets/images/MaxPrinStressCont.png" | relative_url }}){: class=".wrench-image"}
+    <p>
+      I modeled the torque wrench as a cantilever beam with
+      a fixed support applied to the upper 0.40 inches of the
+      drive. A downward force was applied at the free end of
+      the handle to produce the required torque about the drive.
+    </p>
 
-*Figure 4a: Maximum principal stress contour*
+    <div class="tw-equation">
+      F = T / L = 600 / 16.6 = 36.14 lbf
+    </div>
 
-![Torque Wrench]({{ "assets/images/ZoomedPrinStress.png" | relative_url }}){: class=".wrench-image"}
+    <figure class="tw-figure">
+      <img src="{{ '/assets/images/BoundaryConditions.png' | relative_url }}"
+           alt="Ansys loading and boundary conditions">
+      <figcaption>Figure 2. Fixed support and applied load in the finite element model.</figcaption>
+    </figure>
 
-*Figure 4b: Zoomed in on locations of maximum and minimum principle stresses (61176 psi and -1676.3 psi, respectively)*
+    <h3>Normal Elastic Strain</h3>
+    <p>
+      I examined the normal strain in the handle's longitudinal
+      direction, with particular attention to the narrowed
+      section where the strain gauge would be mounted.
+    </p>
 
-**6. Summary of Results from FEM Calculation showing Maximum Normal Stress, Deflection, and Strains**
+    <div class="tw-gallery">
+      <figure class="tw-figure">
+        <img src="{{ '/assets/images/NormalElasticStrainContour.png' | relative_url }}"
+             alt="Normal elastic strain contour">
+        <figcaption>Figure 3a. Longitudinal normal elastic strain.</figcaption>
+      </figure>
+      <figure class="tw-figure">
+        <img src="{{ '/assets/images/ZoomedNormalElasticStrain.png' | relative_url }}"
+             alt="Zoomed normal elastic strain contour">
+        <figcaption>Figure 3b. Local strain extrema: +0.00109 and −0.00118.</figcaption>
+      </figure>
+    </div>
 
-![Torque Wrench]({{ "assets/images/NormalStressContour.png" | relative_url }}){: class=".wrench-image"}
+    <h3>Maximum Principal Stress</h3>
+    <p>
+      Principal stress contours were used to identify highly
+      loaded regions and examine local stress concentrations.
+    </p>
 
-*Figure 5a: Normal stress contour, in x-direction*
+    <div class="tw-gallery">
+      <figure class="tw-figure">
+        <img src="{{ '/assets/images/MaxPrinStressCont.png' | relative_url }}"
+             alt="Maximum principal stress contour">
+        <figcaption>Figure 4a. Maximum principal stress distribution.</figcaption>
+      </figure>
+      <figure class="tw-figure">
+        <img src="{{ '/assets/images/ZoomedPrinStress.png' | relative_url }}"
+             alt="Zoomed principal stress contour">
+        <figcaption>Figure 4b. Reported extrema: 61,176 psi and −1,676.3 psi.</figcaption>
+      </figure>
+    </div>
 
-![Torque Wrench]({{ "assets/images/ZoomMaxSigmaX.png" | relative_url }}){: class=".wrench-image"}
+    <h3>Normal Stress & Deformation</h3>
+    <p>
+      The longitudinal normal stress reached approximately
+      33,966 psi near the strain gauge region. The maximum
+      predicted displacement was 0.198 inches at the
+      point of load application.
+    </p>
 
-*Figure 5b: Zoomed in on locations of maximum and minimum 𝜎x (33966 psi and -33003 psi, respectively)*
+    <div class="tw-gallery">
+      <figure class="tw-figure">
+        <img src="{{ '/assets/images/NormalStressContour.png' | relative_url }}"
+             alt="Normal stress contour">
+        <figcaption>Figure 5a. Longitudinal normal stress.</figcaption>
+      </figure>
+      <figure class="tw-figure">
+        <img src="{{ '/assets/images/ZoomMaxSigmaX.png' | relative_url }}"
+             alt="Zoomed normal stress contour">
+        <figcaption>Figure 5b. Local normal stress extrema: +33,966 and −33,003 psi.</figcaption>
+      </figure>
+      <figure class="tw-figure">
+        <img src="{{ '/assets/images/TotalDefCont.png' | relative_url }}"
+             alt="Total deformation contour">
+        <figcaption>Figure 6. Total deformation under the design load.</figcaption>
+      </figure>
+      <figure class="tw-figure">
+        <img src="{{ '/assets/images/StrainSummary.png' | relative_url }}"
+             alt="Strain gauge location strain summary">
+        <figcaption>Figure 7. Strain measurements extracted at the gauge location.</figcaption>
+      </figure>
+    </div>
+  </section>
 
-![Torque Wrench]({{ "assets/images/TotalDefCont.png" | relative_url }}){: class=".wrench-image"}
+  <!-- 05 STRAIN GAUGE -->
+  <section class="tw-section">
+    <p class="tw-section-number">05 / INSTRUMENTATION</p>
+    <h2>Strain Gauge Selection & Sensitivity</h2>
 
-*Figure 6: Total deformation contour*
+    <p>
+      To estimate measurement sensitivity, I established a
+      local coordinate system at the center of the proposed
+      strain gauge and probed the longitudinal normal strain
+      from the finite element solution.
+    </p>
 
-![Torque Wrench]({{ "assets/images/StrainSummary.png" | relative_url }}){: class=".wrench-image"}
+    <div class="tw-result">
+      <span>Predicted strain at gauge location</span>
+      <strong>1.0054 × 10⁻³ in/in</strong>
+      <span>Calculated torque wrench sensitivity</span>
+      <strong>1.0054 mV/V</strong>
+    </div>
 
-*Figure 7: Strains measured at the strain gauge*
+    <p>
+      The calculated sensitivity exceeded the minimum
+      requirement of 1.0 mV/V.
+    </p>
 
-**Summary of Key Results:** 
-- Max normal stress 𝜎x = 33966 psi, located at or near the strain gauge
-- Max deflection = 0.198 in, located at the point of load application
-- 𝜀xx at strain gauge = 1.0054 * 10-3 in/in
+    <h3>HBK 1-DY11-6/350</h3>
 
-**7. Torque wrench sensitivity in mV/V using strains from the FEM analysis**
+    <p>
+      I selected an HBK double-linear strain gauge with
+      two parallel measuring grids, suited to the
+      bending-strain measurement approach used in this design.
+      The DY11 variant provides temperature compensation
+      matched to steel, helping reduce measurement error
+      associated with differences in thermal expansion.
+    </p>
 
-To determine the torque wrench sensitivity, we set up a coordinate system located at the center of the strain gauge and probed the normal strain at that location. We found that the strain was 1.0054*10-3 in/in, meaning the torque wrench sensitivity is 1.0054 mV/V, meeting the requirement of having a sensitivity of at least 1.0 mV/V.
+    <div class="tw-gallery">
+      <figure class="tw-figure">
+        <img src="{{ '/assets/images/StrainGauge.png' | relative_url }}"
+             alt="HBK strain gauge specifications">
+        <figcaption>Figure 8. Selected HBK strain gauge specifications.</figcaption>
+      </figure>
+      <figure class="tw-figure">
+        <img src="{{ '/assets/images/StrainGaugeLocation.png' | relative_url }}"
+             alt="Strain gauge placement on torque wrench">
+        <figcaption>Figure 9. Proposed gauge placement and available mounting space.</figcaption>
+      </figure>
+    </div>
 
-**8. Strain Gauge Selection** 
+    <p>
+      <a href="https://www.hbkworld.com/en/products/support-resources/support-hbm/downloads/product-literature/product-literature-sensors-transducers/product-literature-strain-gauges"
+         target="_blank" rel="noopener noreferrer">
+        View HBK strain gauge documentation ↗
+      </a>
+    </p>
+  </section>
 
-To select a strain gauge, we referenced the following catalogue from HBK: 
+  <!-- 06 RESULTS -->
+  <section class="tw-section">
+    <p class="tw-section-number">06 / RESULTS & TAKEAWAYS</p>
+    <h2>Design Validation & Engineering Takeaways</h2>
 
-https://www.hbkworld.com/en/products/support-resources/support-hbm/downloads/product-literature/product-literature-sensors-transducers/product-literature-strain-gauges 
+    <p>
+      The final design combined a high-strength steel alloy
+      with a locally reduced handle cross-section to
+      improve strain gauge sensitivity while addressing
+      the project's structural requirements.
+    </p>
 
-First, we selected the geometry of the strain gauge, which depends on the type of measurement being made, such as strain in 1D, determining shear stress, etc. Since we are modeling the torque wrench handle as a beam and using the max bending moment applied to the handle as the torque, the double linear strain gauge (DY1) is the most suitable. This geometry comprises two measuring grids arranged in parallel. From there, we chose the DY11, since its temperature response is matched to steel, which is the material that our torque wrench is made out of. This means that the coefficient of thermal expansion for the strain gauge matches that of the material, reducing error from differences in thermal expansion. Specifically, we chose the 1-DY11-6/350, with the following specs:
+    <div class="tw-table-wrap">
+      <table class="tw-table">
+        <thead>
+          <tr><th>Result</th><th>Calculated Value</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Applied torque</td><td>600 lbf·in</td></tr>
+          <tr><td>Maximum normal stress</td><td>33,966 psi</td></tr>
+          <tr><td>Maximum deflection</td><td>0.198 in</td></tr>
+          <tr><td>Strain at gauge</td><td>1.0054 × 10⁻³ in/in</td></tr>
+          <tr><td>Calculated sensitivity</td><td>1.0054 mV/V</td></tr>
+          <tr><td>Required sensitivity</td><td>≥ 1.0 mV/V</td></tr>
+        </tbody>
+      </table>
+    </div>
 
-![Torque Wrench]({{ "assets/images/StrainGauge.png" | relative_url }}){: class=".wrench-image"}
+    <figure class="tw-figure">
+      <img src="{{ '/assets/images/SummaryTestValid.png' | relative_url }}"
+           alt="Summary of design validation results">
+      <figcaption>Figure 10. Summary of the original design verification results.</figcaption>
+    </figure>
 
-The following sketch shows where the strain gauge would be placed to verify that there is enough room on the torque wrench for the strain gauge.
+    <p>
+      This project strengthened my experience with
+      translating analytical mechanics into finite element
+      models, interpreting stress and strain distributions,
+      and designing mechanical components for both
+      structural performance and measurement capability.
+    </p>
 
-![Torque Wrench]({{ "assets/images/StrainGaugeLocation.png" | relative_url }}){: class=".wrench-image"}
+    <p class="tw-note">
+      The reported strain and sensitivity values are based
+      on simulation rather than physical strain gauge testing.
+    </p>
+  </section>
 
-**In Summary:**
+  <!-- REPORT -->
+  <section class="tw-section">
+    <h2>Full Technical Report</h2>
+    <p>
+      The complete report includes the detailed calculations,
+      FEA results, material selection, and design verification.
+    </p>
+    <a class="tr-nav-link"
+       href="{{ '/assets/MAE 3270 Final Project.pdf' | relative_url }}"
+       target="_blank" rel="noopener noreferrer">
+      View Full Project Report ↗
+    </a>
+  </section>
 
-![Torque Wrench]({{ "assets/images/SummaryTestValid.png" | relative_url }}){: class=".wrench-image"}
+  <!-- FOOTER NAVIGATION -->
+  <nav class="tr-navigation">
+    <a class="tr-nav-link" href="{{ '/projects/' | relative_url }}">← All Projects</a>
+    <a class="tr-nav-link" href="{{ '/' | relative_url }}">Home</a>
+  </nav>
 
-For more information, see the following document which includes FEA results.
-
-[Download my Report]({{ "/assets/MAE 3270 Final Project.pdf" | relative_url }}) in PDF format.
-
-
-
+</div>
+</div>
