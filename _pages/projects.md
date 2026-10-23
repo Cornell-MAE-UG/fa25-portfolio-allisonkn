@@ -1,10 +1,9 @@
 
 ---
 layout: default
-title: Allison Newman - Portfolio
+title: "Projects"
 permalink: /projects/
 ---
-<p>Projects found: {{ site.projects.size }}</p>
 
 <div class="gallery-container">
   <div class="project-gallery">
@@ -14,16 +13,11 @@ permalink: /projects/
     {% for project in sorted_projects %}
       <div class="gallery-item">
         <a href="{{ project.url | relative_url }}">
-
           {% if project.image %}
-            <img
-              src="{{ project.image | relative_url }}"
-              alt="{{ project.title | escape }}"
-              loading="lazy">
+            <img src="{{ project.image | relative_url }}"
+                 alt="{{ project.title | escape }}">
           {% endif %}
-
           <p>{{ project.title }}</p>
-
         </a>
       </div>
     {% endfor %}
