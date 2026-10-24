@@ -419,7 +419,7 @@ order: 3
       target="_blank"
       rel="noopener noreferrer"
     >
-      View Full Technical Report ↗
+      View Full Technical Report
     </a>
 
     <p>

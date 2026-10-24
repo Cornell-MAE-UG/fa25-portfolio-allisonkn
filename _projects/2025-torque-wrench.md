@@ -364,7 +364,7 @@ order: 2
     <a class="tr-nav-link"
        href="{{ '/assets/MAE 3270 Final Project.pdf' | relative_url }}"
        target="_blank" rel="noopener noreferrer">
-      View Full Project Report ↗
+      View Full Technical Report
     </a>
   </section>
 
