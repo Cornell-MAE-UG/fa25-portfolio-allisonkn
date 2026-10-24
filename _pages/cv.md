@@ -229,7 +229,7 @@ permalink: /cv/
         target="_blank"
         rel="noopener noreferrer"
       >
-        Download Résumé ↗
+        Download Résumé
       </a>
     </div>
 

@@ -314,12 +314,11 @@ title: Allison Newman
     <h2>From Concept to Hardware</h2>
 
     <p>
-      Growing up in Los Angeles, surrounded by the aerospace
-      industry, inspired my interest in space systems.
-      Today, I'm especially drawn to the intersection of
-      mechanical design, dynamics, and manufacturing,
-      where analytical models meet the messy, rewarding
-      reality of building and testing physical systems.
+      Growing up in Los Angeles in a hotbed of the aerospace
+      industry is what inspired my interest in space systems. 
+      I enjoy aspects of mechanical engineering where technical 
+      concepts draw on the scrappiness and creativity of builders 
+      like me.
     </p>
 
     <div class="about-interests">
@@ -413,12 +412,12 @@ title: Allison Newman
 
   <section class="about-closing">
 
-    <h2>Let's build something.</h2>
+    <h2>Let's connect!</h2>
 
     <p>
-      I'm always interested in connecting with people
-      who share a passion for engineering, aerospace,
-      manufacturing, or hands-on problem-solving.
+      I'm always interested in meeting people
+      who share a passion for aerospace,
+      manufacturing, and granny-hobbies.
       Feel free to reach out!
     </p>
 
