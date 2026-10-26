@@ -225,7 +225,7 @@ permalink: /cv/
 
     <div class="cv-download">
       <a
-        href="{{ '/assets/Allison_K_Newman_Resume.pdf' | relative_url }}"
+        href="{{ '/assets/Allison_Newman_Resume.pdf' | relative_url }}"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -269,7 +269,7 @@ permalink: /cv/
     <div class="cv-degree-row">
       <div>
         <div class="cv-degree-title">
-          Master of Engineering in Aerospace Engineering
+          Planned Master of Engineering in Aerospace Engineering
         </div>
       </div>
 
@@ -358,12 +358,8 @@ permalink: /cv/
 
       <ul>
         <li>
-          Modeled inert-gas purging processes using
-          STAR-CCM+ and Ansys to identify inefficiencies
-          in the existing system and recommend
-          improvements. Applied steady-state,
-          transient, turbulent-flow, and passive-scalar
-          modeling techniques.
+          Designed structural fixtures in CATIA for AFSD substrate marking, LPBF part removal, and welding-stock deposition, preventing
+          part deformation and feed misalignment that could compromise 72-hour builds.
         </li>
 
         <li>
