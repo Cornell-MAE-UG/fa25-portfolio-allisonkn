@@ -8,6 +8,25 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/tilt-rotor.css' | relative_url }}">
+<!-- Redirect old portfolio pages to new website -->
+<script>
+  (function () {
+    const oldBase = "/fa25-portfolio-allisonkn";
+    const newSite = "https://allisonkn.github.io";
+
+    const oldPath = window.location.pathname;
+
+    const newPath = oldPath.startsWith(oldBase + "/") || oldPath === oldBase
+      ? oldPath.slice(oldBase.length)
+      : oldPath;
+
+    window.location.replace(
+      newSite + (newPath || "/") +
+      window.location.search +
+      window.location.hash
+    );
+  })();
+</script>
 </head>
 
 <body>
